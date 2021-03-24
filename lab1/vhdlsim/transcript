@@ -1,0 +1,378 @@
+# //  Questa Sim-64
+# //  Version 10.7c linux_x86_64 Aug 17 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab1/vhdlsim/tb_mux21_glitch.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 11:39:33 on Mar 23,2021
+# vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab1/vhdlsim/tb_mux21_glitch.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TBMUX21BIS
+# -- Compiling architecture TEST of TBMUX21BIS
+# -- Compiling configuration MUX21BISTEST
+# -- Loading entity TBMUX21BIS
+# -- Loading architecture TEST of TBMUX21BIS
+# End time: 11:39:33 on Mar 23,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tbmux21bis(test) -t 100ps
+# vsim work.tbmux21bis(test) -t 100ps 
+# Start time: 11:40:12 on Mar 23,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tbmux21bis(test)#1
+add wave *
+# (vish-4014) No objects found matching '*'.
+vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab1/vhdlsim/tb_mux21_glitch.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 11:40:50 on Mar 23,2021
+# vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab1/vhdlsim/tb_mux21_glitch.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TBMUX21BIS
+# -- Compiling architecture TEST of TBMUX21BIS
+# -- Compiling configuration MUX21BISTEST
+# -- Loading entity TBMUX21BIS
+# -- Loading architecture TEST of TBMUX21BIS
+# End time: 11:40:50 on Mar 23,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+quit -sim
+# End time: 11:40:58 on Mar 23,2021, Elapsed time: 0:00:46
+# Errors: 1, Warnings: 0
+vsim -t 100ps work.tbmux21bis(test) -voptargs=+acc
+# vsim -t 100ps work.tbmux21bis(test) -voptargs="+acc" 
+# Start time: 11:41:10 on Mar 23,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tbmux21bis(test)#1
+add wave *
+run 5 ns
+# Causality operation skipped due to absence of debug database file
+quit -sim
+# End time: 12:11:09 on Mar 23,2021, Elapsed time: 0:29:59
+# Errors: 0, Warnings: 1
+vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab1/vhdlsim/ha.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 12:14:03 on Mar 23,2021
+# vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab1/vhdlsim/ha.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HA
+# -- Compiling architecture BEHAVIORAL of HA
+# -- Compiling configuration CFG_HA_BEHAVIORAL
+# -- Loading entity HA
+# -- Loading architecture BEHAVIORAL of HA
+# End time: 12:14:03 on Mar 23,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab1/vhdlsim/fd.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 12:14:05 on Mar 23,2021
+# vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab1/vhdlsim/fd.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FD
+# -- Compiling architecture PIPPO of FD
+# -- Compiling architecture PLUTO of FD
+# -- Loading entity FD
+# -- Compiling configuration CFG_FD_PIPPO
+# -- Loading entity FD
+# -- Loading architecture PIPPO of FD
+# -- Compiling configuration CFG_FD_PLUTO
+# -- Loading entity FD
+# -- Loading architecture PLUTO of FD
+# End time: 12:14:05 on Mar 23,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab1/vhdlsim/counter.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 12:14:08 on Mar 23,2021
+# vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab1/vhdlsim/counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity COUNT
+# -- Compiling architecture STRUCTURAL of COUNT
+# -- Compiling configuration CFG_COUNT_STRUCTURAL
+# -- Loading entity COUNT
+# -- Loading architecture STRUCTURAL of COUNT
+# -- Loading entity HA
+# -- Loading entity FD
+# -- Loading configuration cfg_ha_behavioral
+# -- Loading configuration cfg_fd_pluto
+# End time: 12:14:08 on Mar 23,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab1/vhdlsim/tb_counter.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 12:14:10 on Mar 23,2021
+# vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab1/vhdlsim/tb_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TESTCOUNT
+# -- Compiling architecture TEST of TESTCOUNT
+# -- Compiling configuration CFG_TESTCOUNT
+# -- Loading entity TESTCOUNT
+# -- Loading architecture TEST of TESTCOUNT
+# -- Loading entity COUNT
+# -- Loading configuration cfg_count_structural
+# End time: 12:14:10 on Mar 23,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -t 100ps -voptargs=+acc work.testcount(test)
+# vsim -t 100ps -voptargs="+acc" work.testcount(test) 
+# Start time: 12:15:00 on Mar 23,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.testcount(test)#1
+# Loading work.count(structural)#1
+# Loading work.ha(behavioral)#1
+# Loading work.fd(pluto)#1
+add wave *
+run 520 ns
+restart -f
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+add wave *
+power add /testcount/UCOUNTER1/*
+run 520 ns
+power report
+# 
+# Power Report Interval
+# 520000 ps
+# 
+# Power Report                        Node     Tc     Ti    Time At 1    Time At 0    Time At X
+# ---------------------------------------------------------------------------------------------
+#                   /testcount/UCOUNTER1/A      1      0    514000 ps      6000 ps         0 ps
+#                  /testcount/UCOUNTER1/CK    520      0    260000 ps    260000 ps         0 ps
+#               /testcount/UCOUNTER1/RESET      1      0      2000 ps    518000 ps         0 ps
+#                /testcount/UCOUNTER1/S(7)      2      0    256000 ps    264000 ps         0 ps
+#                /testcount/UCOUNTER1/S(6)      4      0    256000 ps    264000 ps         0 ps
+#                /testcount/UCOUNTER1/S(5)      8      0    256000 ps    264000 ps         0 ps
+#                /testcount/UCOUNTER1/S(4)     16      0    256000 ps    264000 ps         0 ps
+#                /testcount/UCOUNTER1/S(3)     32      0    256000 ps    264000 ps         0 ps
+#                /testcount/UCOUNTER1/S(2)     64      0    256000 ps    264000 ps         0 ps
+#                /testcount/UCOUNTER1/S(1)    128      0    256000 ps    264000 ps         0 ps
+#                /testcount/UCOUNTER1/S(0)    257      0    257000 ps    263000 ps         0 ps
+#                  /testcount/UCOUNTER1/Co     16      0      2000 ps    517800 ps       200 ps
+#             /testcount/UCOUNTER1/STMP(7)     30      0    256000 ps    263600 ps       400 ps
+#             /testcount/UCOUNTER1/STMP(6)     52      0    256000 ps    263600 ps       400 ps
+#             /testcount/UCOUNTER1/STMP(5)     88      0    256000 ps    263600 ps       400 ps
+#             /testcount/UCOUNTER1/STMP(4)    144      0    256000 ps    263600 ps       400 ps
+#             /testcount/UCOUNTER1/STMP(3)    224      0    256000 ps    263600 ps       400 ps
+#             /testcount/UCOUNTER1/STMP(2)    320      0    256000 ps    263600 ps       400 ps
+#             /testcount/UCOUNTER1/STMP(1)    385      0    256600 ps    263000 ps       400 ps
+#             /testcount/UCOUNTER1/STMP(0)    258      0    257000 ps    262800 ps       200 ps
+#             /testcount/UCOUNTER1/CTMP(8)     16      0      2000 ps    517800 ps       200 ps
+#             /testcount/UCOUNTER1/CTMP(7)     28      0      4000 ps    515800 ps       200 ps
+#             /testcount/UCOUNTER1/CTMP(6)     48      0      8000 ps    511800 ps       200 ps
+#             /testcount/UCOUNTER1/CTMP(5)     80      0     16000 ps    503800 ps       200 ps
+#             /testcount/UCOUNTER1/CTMP(4)    128      0     32000 ps    487800 ps       200 ps
+#             /testcount/UCOUNTER1/CTMP(3)    192      0     64000 ps    455800 ps       200 ps
+#             /testcount/UCOUNTER1/CTMP(2)    256      0    128000 ps    391800 ps       200 ps
+#             /testcount/UCOUNTER1/CTMP(1)    257      0    256800 ps    263000 ps       200 ps
+#             /testcount/UCOUNTER1/CTMP(0)      1      0    514000 ps      6000 ps         0 ps
+#         /testcount/UCOUNTER1/STMPSYNC(7)      2      0    256000 ps    264000 ps         0 ps
+#         /testcount/UCOUNTER1/STMPSYNC(6)      4      0    256000 ps    264000 ps         0 ps
+#         /testcount/UCOUNTER1/STMPSYNC(5)      8      0    256000 ps    264000 ps         0 ps
+#         /testcount/UCOUNTER1/STMPSYNC(4)     16      0    256000 ps    264000 ps         0 ps
+#         /testcount/UCOUNTER1/STMPSYNC(3)     32      0    256000 ps    264000 ps         0 ps
+#         /testcount/UCOUNTER1/STMPSYNC(2)     64      0    256000 ps    264000 ps         0 ps
+#         /testcount/UCOUNTER1/STMPSYNC(1)    128      0    256000 ps    264000 ps         0 ps
+#         /testcount/UCOUNTER1/STMPSYNC(0)    257      0    257000 ps    263000 ps         0 ps
+# ---------------------------------------------------------------------------------------------
+# 
+power report -file power1-5.txt
+vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab1/vhdlsim/ha.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 12:32:38 on Mar 23,2021
+# vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab1/vhdlsim/ha.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HA
+# -- Compiling architecture BEHAVIORAL of HA
+# -- Compiling configuration CFG_HA_BEHAVIORAL
+# -- Loading entity HA
+# -- Loading architecture BEHAVIORAL of HA
+# End time: 12:32:38 on Mar 23,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab1/vhdlsim/fd.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 12:32:39 on Mar 23,2021
+# vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab1/vhdlsim/fd.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FD
+# -- Compiling architecture PIPPO of FD
+# -- Compiling architecture PLUTO of FD
+# -- Loading entity FD
+# -- Compiling configuration CFG_FD_PIPPO
+# -- Loading entity FD
+# -- Loading architecture PIPPO of FD
+# -- Compiling configuration CFG_FD_PLUTO
+# -- Loading entity FD
+# -- Loading architecture PLUTO of FD
+# End time: 12:32:40 on Mar 23,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab1/vhdlsim/counter.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 12:32:42 on Mar 23,2021
+# vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab1/vhdlsim/counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity COUNT
+# -- Compiling architecture STRUCTURAL of COUNT
+# -- Compiling configuration CFG_COUNT_STRUCTURAL
+# -- Loading entity COUNT
+# -- Loading architecture STRUCTURAL of COUNT
+# -- Loading entity HA
+# -- Loading entity FD
+# -- Loading configuration cfg_ha_behavioral
+# -- Loading configuration cfg_fd_pluto
+# End time: 12:32:42 on Mar 23,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab1/vhdlsim/tb_counter.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 12:32:43 on Mar 23,2021
+# vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab1/vhdlsim/tb_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TESTCOUNT
+# -- Compiling architecture TEST of TESTCOUNT
+# -- Compiling configuration CFG_TESTCOUNT
+# -- Loading entity TESTCOUNT
+# -- Loading architecture TEST of TESTCOUNT
+# -- Loading entity COUNT
+# -- Loading configuration cfg_count_structural
+# End time: 12:32:43 on Mar 23,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+quit -sim
+# End time: 12:32:52 on Mar 23,2021, Elapsed time: 0:17:52
+# Errors: 0, Warnings: 0
+vsim -t 100ps -voptargs=+acc work.testcount(test)
+# vsim -t 100ps -voptargs="+acc" work.testcount(test) 
+# Start time: 12:33:18 on Mar 23,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.testcount(test)#1
+# Loading work.count(structural)#1
+# Loading work.ha(behavioral)#1
+# Loading work.fd(pluto)#1
+add wave *
+run 30 ns
+restart -f
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+add wave testcount/UCOUNTER1/*
+quit -sim
+# End time: 13:02:13 on Mar 23,2021, Elapsed time: 0:28:55
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab1/vhdlsim/ha.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 13:02:24 on Mar 23,2021
+# vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab1/vhdlsim/ha.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HA
+# -- Compiling architecture BEHAVIORAL of HA
+# -- Compiling configuration CFG_HA_BEHAVIORAL
+# -- Loading entity HA
+# -- Loading architecture BEHAVIORAL of HA
+# End time: 13:02:24 on Mar 23,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab1/vhdlsim/fd.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 13:02:25 on Mar 23,2021
+# vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab1/vhdlsim/fd.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FD
+# -- Compiling architecture PIPPO of FD
+# -- Compiling architecture PLUTO of FD
+# -- Loading entity FD
+# -- Compiling configuration CFG_FD_PIPPO
+# -- Loading entity FD
+# -- Loading architecture PIPPO of FD
+# -- Compiling configuration CFG_FD_PLUTO
+# -- Loading entity FD
+# -- Loading architecture PLUTO of FD
+# End time: 13:02:25 on Mar 23,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab1/vhdlsim/counter.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 13:02:27 on Mar 23,2021
+# vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab1/vhdlsim/counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity COUNT
+# -- Compiling architecture STRUCTURAL of COUNT
+# -- Compiling configuration CFG_COUNT_STRUCTURAL
+# -- Loading entity COUNT
+# -- Loading architecture STRUCTURAL of COUNT
+# -- Loading entity HA
+# -- Loading entity FD
+# -- Loading configuration cfg_ha_behavioral
+# -- Loading configuration cfg_fd_pluto
+# End time: 13:02:27 on Mar 23,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab1/vhdlsim/tb_counter.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 13:02:28 on Mar 23,2021
+# vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab1/vhdlsim/tb_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TESTCOUNT
+# -- Compiling architecture TEST of TESTCOUNT
+# -- Compiling configuration CFG_TESTCOUNT
+# -- Loading entity TESTCOUNT
+# -- Loading architecture TEST of TESTCOUNT
+# -- Loading entity COUNT
+# -- Loading configuration cfg_count_structural
+# End time: 13:02:28 on Mar 23,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -t 100ps -voptargs=+acc work.testcount(test)
+# vsim -t 100ps -voptargs="+acc" work.testcount(test) 
+# Start time: 13:02:48 on Mar 23,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.testcount(test)#1
+# Loading work.count(structural)#1
+# Loading work.ha(behavioral)#1
+# Loading work.fd(pluto)#1
+add wave testcount/UCOUNTER1/*
+run 520 ns
+# End time: 13:06:03 on Mar 23,2021, Elapsed time: 0:03:15
+# Errors: 0, Warnings: 0

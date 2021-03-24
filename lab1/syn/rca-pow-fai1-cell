@@ -1,0 +1,50 @@
+ 
+****************************************
+Report : power
+        -cell
+        -analysis_effort low
+        -sort_mode cell_internal_power
+Design : RCA/FAI_1 (FA_0)
+Version: O-2018.06-SP4
+Date   : Tue Mar 23 11:20:21 2021
+****************************************
+
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /home/mg.lowpower/do/libnangate/NangateOpenCellLibrary_typical_ecsm.db)
+
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+RCA                    5K_hvratio_1_1    NangateOpenCellLibrary
+
+
+Global Operating Voltage = 1.1  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+
+  Attributes
+  ----------
+      h  -  Hierarchical cell
+
+                        Cell      Driven Net  Tot Dynamic      Cell
+                        Internal  Switching   Power            Leakage
+Cell                    Power     Power       (% Cell/Tot)     Power      Attrs
+--------------------------------------------------------------------------------
+U1                         0.8205    0.0512      0.872 (94%)     36.0111   
+U4                         0.5889    0.5488      1.138 (52%)     36.1637   
+U3                         0.3374    0.1749      0.512 (66%)     32.5747   
+U2                         0.1374    0.3964      0.534 (26%)     14.2499   
+--------------------------------------------------------------------------------
+Totals (4 cells)           1.884uW   1.171uW     3.056uW (62%)  118.999nW
+1

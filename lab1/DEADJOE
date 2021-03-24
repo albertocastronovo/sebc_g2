@@ -1,0 +1,12 @@
+
+*** These modified files were found in JOE when it aborted on Tue Mar 16 12:14:51 2021
+*** JOE was aborted by UNIX signal 1
+
+*** File '(Unnamed)'
+tb_rca2.vhd
+
+*** File '* Startup Log *'
+Processing '/etc/joe/joerc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/joerc

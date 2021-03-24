@@ -1,0 +1,61 @@
+
+Power Report Interval
+100000 ps
+
+Power Report                        Node     Tc     Ti    Time At 1    Time At 0    Time At X
+---------------------------------------------------------------------------------------------
+                              /tbrca/CLK    200      0     50000 ps     50000 ps         0 ps
+                            /tbrca/RESET      1      0      1000 ps     99000 ps         0 ps
+                               /tbrca/LD      1      0      2000 ps     98000 ps         0 ps
+                          /tbrca/PRN(15)     51      0     50500 ps     49500 ps         0 ps
+                          /tbrca/PRN(14)     50      0     50000 ps     50000 ps         0 ps
+                          /tbrca/PRN(13)     49      0     49500 ps     50500 ps         0 ps
+                          /tbrca/PRN(12)     48      0     49000 ps     51000 ps         0 ps
+                          /tbrca/PRN(11)     47      0     48500 ps     51500 ps         0 ps
+                          /tbrca/PRN(10)     46      0     48000 ps     52000 ps         0 ps
+                           /tbrca/PRN(9)     46      0     48000 ps     52000 ps         0 ps
+                           /tbrca/PRN(8)     46      0     48000 ps     52000 ps         0 ps
+                           /tbrca/PRN(7)     45      0     47500 ps     52500 ps         0 ps
+                           /tbrca/PRN(6)     45      0     46500 ps     53500 ps         0 ps
+                           /tbrca/PRN(5)     44      0     46000 ps     54000 ps         0 ps
+                           /tbrca/PRN(4)     44      0     46000 ps     54000 ps         0 ps
+                           /tbrca/PRN(3)     44      0     46000 ps     54000 ps         0 ps
+                           /tbrca/PRN(2)     43      0     45500 ps     54500 ps         0 ps
+                           /tbrca/PRN(1)     42      0     45000 ps     55000 ps         0 ps
+                           /tbrca/PRN(0)     43      0     47500 ps     52500 ps         0 ps
+                             /tbrca/A(7)     48      0     49000 ps     51000 ps         0 ps
+                             /tbrca/A(6)     50      0     50000 ps     50000 ps         0 ps
+                             /tbrca/A(5)     43      0     45500 ps     54500 ps         0 ps
+                             /tbrca/A(4)     46      0     48000 ps     52000 ps         0 ps
+                             /tbrca/A(3)     44      0     46000 ps     54000 ps         0 ps
+                             /tbrca/A(2)     46      0     48000 ps     52000 ps         0 ps
+                             /tbrca/A(1)     45      0     46500 ps     53500 ps         0 ps
+                             /tbrca/A(0)     43      0     47500 ps     52500 ps         0 ps
+                             /tbrca/B(7)     42      0     45000 ps     55000 ps         0 ps
+                             /tbrca/B(6)     44      0     46000 ps     54000 ps         0 ps
+                             /tbrca/B(5)     49      0     49500 ps     50500 ps         0 ps
+                             /tbrca/B(4)     45      0     47500 ps     52500 ps         0 ps
+                             /tbrca/B(3)     47      0     48500 ps     51500 ps         0 ps
+                             /tbrca/B(2)     44      0     46000 ps     54000 ps         0 ps
+                             /tbrca/B(1)     46      0     48000 ps     52000 ps         0 ps
+                             /tbrca/B(0)     51      0     50500 ps     49500 ps         0 ps
+                            /tbrca/S1(7)     40      0     48000 ps     51970 ps        30 ps
+                            /tbrca/S1(6)     51      0     46470 ps     53500 ps        30 ps
+                            /tbrca/S1(5)     52      0     52000 ps     47970 ps        30 ps
+                            /tbrca/S1(4)     43      0     55470 ps     44500 ps        30 ps
+                            /tbrca/S1(3)     47      0     50470 ps     49500 ps        30 ps
+                            /tbrca/S1(2)     52      0     43000 ps     56970 ps        30 ps
+                            /tbrca/S1(1)     51      0     46470 ps     53500 ps        30 ps
+                            /tbrca/S1(0)     44      0     45970 ps     54000 ps        30 ps
+                            /tbrca/S2(7)    112      0     47580 ps     52360 ps        60 ps
+                            /tbrca/S2(6)    101      0     46110 ps     53830 ps        60 ps
+                            /tbrca/S2(5)     92      0     52000 ps     47940 ps        60 ps
+                            /tbrca/S2(4)     85      0     55170 ps     44770 ps        60 ps
+                            /tbrca/S2(3)     99      0     50620 ps     49320 ps        60 ps
+                            /tbrca/S2(2)     96      0     43420 ps     56520 ps        60 ps
+                            /tbrca/S2(1)     95      0     46470 ps     53470 ps        60 ps
+                            /tbrca/S2(0)     44      0     45970 ps     54000 ps        30 ps
+                              /tbrca/Co1     52      0     46000 ps     54000 ps         0 ps
+                              /tbrca/Co2     52      0     46300 ps     53670 ps        30 ps
+---------------------------------------------------------------------------------------------
+

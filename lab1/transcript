@@ -1,0 +1,179 @@
+# //  Questa Sim-64
+# //  Version 10.7c linux_x86_64 Aug 17 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab1/ha.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 10:16:20 on Mar 23,2021
+# vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab1/ha.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HA
+# -- Compiling architecture BEHAVIORAL of HA
+# -- Compiling configuration CFG_HA_BEHAVIORAL
+# -- Loading entity HA
+# -- Loading architecture BEHAVIORAL of HA
+# End time: 10:16:20 on Mar 23,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab1/fa.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 10:16:23 on Mar 23,2021
+# vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab1/fa.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FA
+# -- Compiling architecture BEHAVIORAL of FA
+# -- Compiling configuration CFG_FA_BEHAVIORAL
+# -- Loading entity FA
+# -- Loading architecture BEHAVIORAL of FA
+# End time: 10:16:23 on Mar 23,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab1/tb_rca2.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 10:16:26 on Mar 23,2021
+# vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab1/tb_rca2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TBRCA
+# -- Compiling architecture TEST of TBRCA
+# End time: 10:16:26 on Mar 23,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tbrca(test) -t ps -voptargs=+acc
+# vsim work.tbrca(test) -t ps -voptargs="+acc" 
+# Start time: 10:18:05 on Mar 23,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tbrca(test)#1
+# Loading work.rca(structural)#1
+# Loading work.fa(behavioral)#1
+# Loading work.rca(structural)#2
+# Loading work.fa(behavioral)#2
+add wave *
+power add *
+run 200 ns
+power report
+# 
+# Power Report Interval
+# 200000 ps
+# 
+# Power Report                        Node     Tc     Ti    Time At 1    Time At 0    Time At X
+# ---------------------------------------------------------------------------------------------
+#                           /tbrca/DIN(14)      1      0       199000         1000            0
+#                           /tbrca/DIN(12)      1      0       199000         1000            0
+#                           /tbrca/DIN(10)      1      0       199000         1000            0
+#                            /tbrca/DIN(5)      1      0         1000       199000            0
+#                            /tbrca/DIN(3)      1      0         1000       199000            0
+#                            /tbrca/DIN(1)      1      0         1000       199000            0
+#                            /tbrca/DIN(0)      1      0       199000         1000            0
+#                              /tbrca/A(7)      1      0         1000       199000            0
+#                              /tbrca/A(5)      1      0         1000       199000            0
+#                              /tbrca/A(3)      1      0         1000       199000            0
+#                              /tbrca/A(2)      1      0       199000         1000            0
+#                              /tbrca/B(6)      1      0       199000         1000            0
+#                              /tbrca/B(4)      1      0       199000         1000            0
+#                              /tbrca/B(2)      1      0       199000         1000            0
+#                             /tbrca/S1(6)      1      0         1000       198975           25
+#                             /tbrca/S1(4)      1      0         1000       198975           25
+#                             /tbrca/S2(7)      6      0           75       199875           50
+#                             /tbrca/S2(6)      5      0         1025       198925           50
+#                             /tbrca/S2(5)      4      0           50       199900           50
+#                             /tbrca/S2(4)      3      0         1000       198950           50
+#                             /tbrca/S2(3)      2      0           25       199925           50
+#                               /tbrca/Co1      6      0       200000            0            0
+#                               /tbrca/Co2      6      0       199900           75           25
+# ---------------------------------------------------------------------------------------------
+# 
+restart -f
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+add wave *
+power add *
+run 200000 ns
+power report
+# 
+# Power Report Interval
+# 200000000 ps
+# 
+# Power Report                        Node     Tc     Ti    Time At 1    Time At 0    Time At X
+# ---------------------------------------------------------------------------------------------
+#                           /tbrca/DIN(14)      1      0    199999000         1000            0
+#                           /tbrca/DIN(12)      1      0    199999000         1000            0
+#                           /tbrca/DIN(10)      1      0    199999000         1000            0
+#                            /tbrca/DIN(5)      1      0         1000    199999000            0
+#                            /tbrca/DIN(3)      1      0         1000    199999000            0
+#                            /tbrca/DIN(1)      1      0         1000    199999000            0
+#                            /tbrca/DIN(0)      1      0    199999000         1000            0
+#                              /tbrca/A(7)      1      0         1000    199999000            0
+#                              /tbrca/A(5)      1      0         1000    199999000            0
+#                              /tbrca/A(3)      1      0         1000    199999000            0
+#                              /tbrca/A(2)      1      0    199999000         1000            0
+#                              /tbrca/B(6)      1      0    199999000         1000            0
+#                              /tbrca/B(4)      1      0    199999000         1000            0
+#                              /tbrca/B(2)      1      0    199999000         1000            0
+#                             /tbrca/S1(6)      1      0         1000    199998975           25
+#                             /tbrca/S1(4)      1      0         1000    199998975           25
+#                             /tbrca/S2(7)      6      0           75    199999875           50
+#                             /tbrca/S2(6)      5      0         1025    199998925           50
+#                             /tbrca/S2(5)      4      0           50    199999900           50
+#                             /tbrca/S2(4)      3      0         1000    199998950           50
+#                             /tbrca/S2(3)      2      0           25    199999925           50
+#                               /tbrca/Co1      6      0    200000000            0            0
+#                               /tbrca/Co2      6      0    199999900           75           25
+# ---------------------------------------------------------------------------------------------
+# 
+restart -f
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+add wave *
+power add *
+run 2 ns
+power report
+# 
+# Power Report Interval
+# 2000 ps
+# 
+# Power Report                        Node     Tc     Ti    Time At 1    Time At 0    Time At X
+# ---------------------------------------------------------------------------------------------
+#                           /tbrca/DIN(14)      1      0         1000         1000            0
+#                           /tbrca/DIN(12)      1      0         1000         1000            0
+#                           /tbrca/DIN(10)      1      0         1000         1000            0
+#                            /tbrca/DIN(5)      1      0         1000         1000            0
+#                            /tbrca/DIN(3)      1      0         1000         1000            0
+#                            /tbrca/DIN(1)      1      0         1000         1000            0
+#                            /tbrca/DIN(0)      1      0         1000         1000            0
+#                              /tbrca/A(7)      1      0         1000         1000            0
+#                              /tbrca/A(5)      1      0         1000         1000            0
+#                              /tbrca/A(3)      1      0         1000         1000            0
+#                              /tbrca/A(2)      1      0         1000         1000            0
+#                              /tbrca/B(6)      1      0         1000         1000            0
+#                              /tbrca/B(4)      1      0         1000         1000            0
+#                              /tbrca/B(2)      1      0         1000         1000            0
+#                             /tbrca/S1(6)      1      0         1000          975           25
+#                             /tbrca/S1(4)      1      0         1000          975           25
+#                             /tbrca/S2(7)      6      0           75         1875           50
+#                             /tbrca/S2(6)      5      0         1025          925           50
+#                             /tbrca/S2(5)      4      0           50         1900           50
+#                             /tbrca/S2(4)      3      0         1000          950           50
+#                             /tbrca/S2(3)      2      0           25         1925           50
+#                               /tbrca/Co1      6      0         2000            0            0
+#                               /tbrca/Co2      6      0         1900           75           25
+# ---------------------------------------------------------------------------------------------
+# 
+# Causality operation skipped due to absence of debug database file
+# End time: 11:35:13 on Mar 23,2021, Elapsed time: 1:17:08
+# Errors: 0, Warnings: 1

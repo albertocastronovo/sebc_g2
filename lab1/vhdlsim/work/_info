@@ -1,0 +1,411 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/lp21.2/Desktop/lab1/vhdlsim
+T_opt
+!s110 1616496012
+V>C1_N2=gBY88^26oQ8@jC2
+Z1 04 10 4 work tbmux21bis test 1
+=1-000ae431a4f1-6059c58c-8a8b2-4de
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1616496071
+V49?Qe_G>7Lo=VCa=2dE_W1
+R1
+=1-000ae431a4f1-6059c5c6-e5eff-d8d
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1616500968
+VYJQ5LPZ@7@PF;_9d]TJmh1
+04 9 4 work testcount test 1
+=1-000ae431a4f1-6059d8e8-8b518-2d2e
+R4
+R2
+n@_opt2
+R3
+Ccfg_count_structural
+eCOUNT
+aSTRUCTURAL
+Z5 DEx4 work 2 fd 0 22 9g>Z=9bYKj5T^_>;P0^D40
+Z6 DEx4 work 2 ha 0 22 S9=kzMNbgJ=G^E02FH`KI2
+DCx4 work 12 cfg_fd_pluto 0 22 5UK3>i62ZckEg8kF8onJ]1
+DCx4 work 17 cfg_ha_behavioral 0 22 [Q7bX<_4BkS:c>2mJDH1`0
+DAx4 work 5 count 10 structural 22 G>iQ`GDQWD9CW<GTb2DUH3
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z9 DEx4 work 5 count 0 22 EXJGQaDE:R[^=<lIk8lZ<1
+Z10 w1616498018
+R0
+Z11 8/home/lp21.2/Desktop/lab1/vhdlsim/counter.vhd
+Z12 F/home/lp21.2/Desktop/lab1/vhdlsim/counter.vhd
+l0
+L51
+V@E^^ZV1UNXG?TQ1SWk8FG3
+!s100 0eW03e^`lW]=AhJlLMW3a0
+Z13 OL;C;10.7c;67
+32
+Z14 !s110 1616500947
+!i10b 0
+Z15 !s108 1616500947.000000
+Z16 !s90 -reportprogress|300|-work|work|/home/lp21.2/Desktop/lab1/vhdlsim/counter.vhd|
+Z17 !s107 /home/lp21.2/Desktop/lab1/vhdlsim/counter.vhd|
+!i113 0
+Z18 o-work work
+Z19 tExplicit 1 CvgOpt 0
+Ccfg_fd_pippo
+eFD
+aPIPPO
+DAx4 work 2 fd 5 pippo 22 @b4CC4W@0>Lj8h7;LcQ4;0
+R7
+R8
+R5
+Z20 w1616498003
+R0
+Z21 8/home/lp21.2/Desktop/lab1/vhdlsim/fd.vhd
+Z22 F/home/lp21.2/Desktop/lab1/vhdlsim/fd.vhd
+l0
+L44
+VH9@TjAN>dQK5KCLLAPX]b0
+!s100 ILaMdNiCeAn^GdZ^nC0[C1
+R13
+32
+Z23 !s110 1616500945
+!i10b 0
+Z24 !s108 1616500945.000000
+Z25 !s90 -reportprogress|300|-work|work|/home/lp21.2/Desktop/lab1/vhdlsim/fd.vhd|
+Z26 !s107 /home/lp21.2/Desktop/lab1/vhdlsim/fd.vhd|
+!i113 0
+R18
+R19
+Ccfg_fd_pluto
+eFD
+aPLUTO
+DAx4 work 2 fd 5 pluto 22 hBzH<17naUPOl>bz0[;F^1
+R7
+R8
+R5
+R20
+R0
+R21
+R22
+l0
+L50
+V5UK3>i62ZckEg8kF8onJ]1
+!s100 <e6XkBm65:?3OXb:G]NDl3
+R13
+32
+R23
+!i10b 0
+R24
+R25
+R26
+!i113 0
+R18
+R19
+Ccfg_ha_behavioral
+eHA
+aBEHAVIORAL
+DAx4 work 2 ha 10 behavioral 22 `EeTBUgToFJiBk1hlLF;j0
+R7
+R8
+R6
+Z27 w1616497986
+R0
+Z28 8/home/lp21.2/Desktop/lab1/vhdlsim/ha.vhd
+Z29 F/home/lp21.2/Desktop/lab1/vhdlsim/ha.vhd
+l0
+L21
+V[Q7bX<_4BkS:c>2mJDH1`0
+!s100 UcgRDH?fDI59cSI`EDGKO2
+R13
+32
+Z30 !s110 1616500944
+!i10b 0
+Z31 !s108 1616500944.000000
+Z32 !s90 -reportprogress|300|-work|work|/home/lp21.2/Desktop/lab1/vhdlsim/ha.vhd|
+Z33 !s107 /home/lp21.2/Desktop/lab1/vhdlsim/ha.vhd|
+!i113 0
+R18
+R19
+Ccfg_testcount
+eTESTCOUNT
+Z34 aTEST
+R9
+DCx4 work 20 cfg_count_structural 0 22 @E^^ZV1UNXG?TQ1SWk8FG3
+DAx4 work 9 testcount 4 test 22 O>]=6OSmf^WihP?dnkdlk2
+Z35 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R7
+R8
+Z36 DEx4 work 9 testcount 0 22 F8WiR0?Jb<b0fH@K;zYeE3
+Z37 w1616500922
+R0
+Z38 8/home/lp21.2/Desktop/lab1/vhdlsim/tb_counter.vhd
+Z39 F/home/lp21.2/Desktop/lab1/vhdlsim/tb_counter.vhd
+l0
+L40
+VJAKkeb=flS1VWSC:^;j2A1
+!s100 OG4g;MVljcOJ?GBZWzIH]3
+R13
+32
+Z40 !s110 1616500948
+!i10b 0
+Z41 !s108 1616500948.000000
+Z42 !s90 -reportprogress|300|-work|work|/home/lp21.2/Desktop/lab1/vhdlsim/tb_counter.vhd|
+Z43 !s107 /home/lp21.2/Desktop/lab1/vhdlsim/tb_counter.vhd|
+!i113 0
+R18
+R19
+Ecount
+R10
+R7
+R8
+R0
+R11
+R12
+l0
+L4
+VEXJGQaDE:R[^=<lIk8lZ<1
+!s100 QKNB9HQPY9A^Q85GCdDJh3
+R13
+32
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Astructural
+R7
+R8
+R9
+l34
+L13
+VG>iQ`GDQWD9CW<GTb2DUH3
+!s100 lXJ]F2S3d=nNmBg`??ESF3
+R13
+32
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Efd
+R20
+R7
+R8
+R0
+R21
+R22
+l0
+L4
+V9g>Z=9bYKj5T^_>;P0^D40
+!s100 5Ah>[R?SSFVYK=4UZmM>N2
+R13
+32
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 0
+R18
+R19
+Apluto
+R7
+R8
+R5
+l30
+L28
+VhBzH<17naUPOl>bz0[;F^1
+!s100 fN:l>1]L_ADJ?`iCUMkJ73
+R13
+32
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 0
+R18
+R19
+Apippo
+R7
+R8
+R5
+l14
+L12
+V@b4CC4W@0>Lj8h7;LcQ4;0
+!s100 Y5;?^[hjk3VmofmhKb>^82
+R13
+32
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 0
+R18
+R19
+Eha
+R27
+R7
+R8
+R0
+R28
+R29
+l0
+L4
+VS9=kzMNbgJ=G^E02FH`KI2
+!s100 EFejR8R7M9`dm0>EAKf6@3
+R13
+32
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 0
+R18
+R19
+Abehavioral
+R7
+R8
+R6
+l14
+L12
+V`EeTBUgToFJiBk1hlLF;j0
+!s100 Do<5UzOOEj9bbLD_TQMcR1
+R13
+32
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 0
+R18
+R19
+Cmux21bistest
+eTBMUX21BIS
+R34
+DAx4 work 10 tbmux21bis 4 test 22 BRQXff8Q`CFB:XYPXF:5z1
+R7
+R8
+Z44 DEx4 work 10 tbmux21bis 0 22 kog@^ocZDBkkMbghX7zHC1
+Z45 w1616495779
+R0
+Z46 8/home/lp21.2/Desktop/lab1/vhdlsim/tb_mux21_glitch.vhd
+Z47 F/home/lp21.2/Desktop/lab1/vhdlsim/tb_mux21_glitch.vhd
+l0
+L49
+VilfaVd2HQkObDPICW3c2g0
+!s100 eZ23J:<Mm57HCJDPzmNVO2
+R13
+32
+Z48 !s110 1616496050
+!i10b 0
+Z49 !s108 1616496050.000000
+Z50 !s90 -reportprogress|300|-work|work|/home/lp21.2/Desktop/lab1/vhdlsim/tb_mux21_glitch.vhd|
+Z51 !s107 /home/lp21.2/Desktop/lab1/vhdlsim/tb_mux21_glitch.vhd|
+!i113 0
+R18
+R19
+Etbmux21bis
+R45
+R7
+R8
+R0
+R46
+R47
+l0
+L5
+Vkog@^ocZDBkkMbghX7zHC1
+!s100 ?BVRXoQ;ALEoVihlXlX=;3
+R13
+32
+R48
+!i10b 1
+R49
+R50
+R51
+!i113 0
+R18
+R19
+Atest
+R7
+R8
+R44
+l21
+L8
+VBRQXff8Q`CFB:XYPXF:5z1
+!s100 B5N8?@3]TcQmo_Yo7[:4S1
+R13
+32
+R48
+!i10b 1
+R49
+R50
+R51
+!i113 0
+R18
+R19
+Etestcount
+R37
+R35
+R7
+R8
+R0
+R38
+R39
+l0
+L5
+VF8WiR0?Jb<b0fH@K;zYeE3
+!s100 :lR6fM84M0=6_5hm3CHNf2
+R13
+32
+R40
+!i10b 1
+R41
+R42
+R43
+!i113 0
+R18
+R19
+Atest
+R35
+R7
+R8
+R36
+l28
+L8
+VO>]=6OSmf^WihP?dnkdlk2
+!s100 W3`FZH=EY0:@]5b=<mM2o3
+R13
+32
+R40
+!i10b 1
+R41
+R42
+R43
+!i113 0
+R18
+R19

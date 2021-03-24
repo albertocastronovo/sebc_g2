@@ -1,0 +1,38 @@
+
+Power Report Interval
+1000000 ps
+
+Power Report                        Node     Tc     Ti    Time At 1    Time At 0    Time At X
+---------------------------------------------------------------------------------------------
+                             /tbprob/CLK   2000      0    500000 ps    500000 ps         0 ps
+                           /tbprob/RESET      1      0      1000 ps    999000 ps         0 ps
+                              /tbprob/LD      1      0      2000 ps    998000 ps         0 ps
+                        /tbprob/DOUT(15)    539      0    534500 ps    465500 ps         0 ps
+                        /tbprob/DOUT(14)    539      0    533500 ps    466500 ps         0 ps
+                        /tbprob/DOUT(13)    539      0    532500 ps    467500 ps         0 ps
+                        /tbprob/DOUT(12)    538      0    532000 ps    468000 ps         0 ps
+                        /tbprob/DOUT(11)    538      0    532000 ps    468000 ps         0 ps
+                        /tbprob/DOUT(10)    538      0    532000 ps    468000 ps         0 ps
+                         /tbprob/DOUT(9)    537      0    531500 ps    468500 ps         0 ps
+                         /tbprob/DOUT(8)    536      0    531000 ps    469000 ps         0 ps
+                         /tbprob/DOUT(7)    536      0    531000 ps    469000 ps         0 ps
+                         /tbprob/DOUT(6)    535      0    530500 ps    469500 ps         0 ps
+                         /tbprob/DOUT(5)    535      0    529500 ps    470500 ps         0 ps
+                         /tbprob/DOUT(4)    534      0    529000 ps    471000 ps         0 ps
+                         /tbprob/DOUT(3)    533      0    528500 ps    471500 ps         0 ps
+                         /tbprob/DOUT(2)    533      0    527500 ps    472500 ps         0 ps
+                         /tbprob/DOUT(1)    532      0    527000 ps    473000 ps         0 ps
+                         /tbprob/DOUT(0)    533      0    529500 ps    470500 ps         0 ps
+                             /tbprob/IVA    533      0    529500 ps    470500 ps         0 ps
+                             /tbprob/IVY    533      0    470400 ps    529500 ps       100 ps
+                            /tbprob/ANDA    533      0    529500 ps    470500 ps         0 ps
+                            /tbprob/ANDB    539      0    534500 ps    465500 ps         0 ps
+                            /tbprob/ANDY    418      0    277000 ps    722900 ps       100 ps
+                             /tbprob/ORA    533      0    529500 ps    470500 ps         0 ps
+                             /tbprob/ORB    539      0    534500 ps    465500 ps         0 ps
+                             /tbprob/ORY    352      0    786900 ps    213000 ps       100 ps
+                              /tbprob/XA    533      0    529500 ps    470500 ps         0 ps
+                              /tbprob/XB    539      0    534500 ps    465500 ps         0 ps
+                              /tbprob/XY    470      0    509900 ps    490000 ps       100 ps
+---------------------------------------------------------------------------------------------
+
