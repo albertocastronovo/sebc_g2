@@ -1,0 +1,76 @@
+ 
+****************************************
+Report : power
+        -net
+        -analysis_effort low
+        -sort_mode net_switching_power
+Design : FSM_ADDER/adder/add_78 (datapath_adder_DW01_add_0)
+Version: F-2011.09-SP3
+Date   : Tue Apr 13 11:46:17 2021
+****************************************
+
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /home/mg.lowpower/do/libnangate/NangateOpenCellLibrary_typical_ecsm.db)
+
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+FSM_ADDER              5K_hvratio_1_1    NangateOpenCellLibrary
+
+
+Global Operating Voltage = 1.1  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+
+  Attributes
+  ----------
+      a  -  Switching activity information annotated on net
+      d  -  Default switching activity information on net
+
+                             Total      Static   Toggle   Switching
+Net                          Net Load   Prob.    Rate     Power      Attrs
+--------------------------------------------------------------------------------
+carry[12]                      3.072    0.497    0.0402      0.0746  
+carry[13]                      3.072    0.499    0.0400      0.0744  
+carry[11]                      3.072    0.499    0.0399      0.0742  
+carry[7]                       3.072    0.487    0.0398      0.0739  
+carry[14]                      3.072    0.497    0.0397      0.0737  
+carry[15]                      3.072    0.503    0.0395      0.0734  
+carry[5]                       3.072    0.487    0.0395      0.0734  
+carry[6]                       3.072    0.483    0.0395      0.0733  
+carry[8]                       3.072    0.494    0.0395      0.0733  
+carry[10]                      3.072    0.492    0.0394      0.0733  
+carry[9]                       3.072    0.496    0.0394      0.0732  
+carry[4]                       3.072    0.466    0.0388      0.0721  
+carry[3]                       3.072    0.427    0.0380      0.0707  
+carry[2]                       3.072    0.374    0.0361      0.0671  
+n1                             3.072    0.250    0.0294      0.0547  
+SUM[12]                        1.438    0.499    0.0507      0.0441  
+SUM[14]                        1.438    0.503    0.0506      0.0440  
+SUM[5]                         1.438    0.505    0.0505      0.0440  
+SUM[9]                         1.438    0.496    0.0503      0.0438  
+SUM[15]                        1.438    0.501    0.0503      0.0438  
+SUM[11]                        1.438    0.510    0.0503      0.0438  
+SUM[7]                         1.438    0.495    0.0503      0.0437  
+SUM[6]                         1.438    0.503    0.0501      0.0436  
+SUM[10]                        1.438    0.498    0.0500      0.0435  
+SUM[8]                         1.438    0.498    0.0500      0.0435  
+SUM[13]                        1.438    0.502    0.0499      0.0434  
+SUM[4]                         1.438    0.495    0.0488      0.0425  
+SUM[3]                         1.438    0.495    0.0484      0.0421  
+SUM[2]                         1.438    0.509    0.0476      0.0414  
+SUM[1]                         1.438    0.501    0.0459      0.0399  
+SUM[0]                         1.438    0.499    0.0403      0.0351  
+--------------------------------------------------------------------------------
+Total (31 nets)                                              1.7573 uW

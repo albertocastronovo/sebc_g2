@@ -1,0 +1,133 @@
+gui_start
+analyze -library WORK -format vhdl {/home/lp21.2/Desktop/lab2/synth/FSM_ADDER.vhd /home/lp21.2/Desktop/lab2/synth/dpadder.vhd}
+elaborate  -library WORK
+elaborate  -library WORK
+analyze -library WORK -format vhdl {/home/lp21.2/Desktop/lab2/synth/dpadder.vhd}
+analyze -library WORK -format vhdl {/home/lp21.2/Desktop/lab2/synth/FSM_ADDER.vhd}
+analyze -library WORK -format vhdl {/home/lp21.2/Desktop/lab2/synth/dpadder.vhd}
+analyze -library WORK -format vhdl {/home/lp21.2/Desktop/lab2/synth/FSM_ADDER.vhd}
+analyze -library WORK -format vhdl {/home/lp21.2/Desktop/lab2/synth/dpadder.vhd}
+analyze -library WORK -format vhdl {/home/lp21.2/Desktop/lab2/synth/FSM_ADDER.vhd}
+elaborate FSM_ADDER -architecture FSM_OPC -library WORK
+create clock -name ?CLK? -period 10 {clock}
+create_clock -name "CLK" -period 10 {clock}
+compile -exact_map
+change_selection -name __slctBus17 -type {cell design} _sel779
+write -hierarchy -format ddc -output /home/lp21.2/Desktop/lab2/synth/fsm_design.ddc
+write -format vhdl -output /home/lp21.2/Desktop/lab2/synth/fsm_generato.vhdl
+uplevel #0 { report_area -nosplit }
+report_fsm ...
+report_fsm
+set_fsm_encoding_style
+uplevel #0 { report_timing -path full -delay max -nworst 1 -max_paths 1 -significant_digits 2 -sort_by group }
+uplevel #0 { report_timing -path full -delay max -nworst 1 -max_paths 1 -significant_digits 2 -sort_by group }
+report_timing -nworst 10
+uplevel #0 { report_power -analysis_effort low -verbose }
+report_power -hier
+uplevel #0 { report_power -cell -analysis_effort low }
+uplevel #0 { report_power -net -analysis_effort low }
+list_designs
+current_instance FSM
+current_instance FSM_ADDER
+current_instance FSM_ADDER/P_NEXT_STATE
+current_instance P_NEXT_STATE
+current_instance FSM_OPC
+current_instance FSM_ADDER/FSM_OPC
+current_instance FSM_ADDER/
+current_instance FSM_ADDER/*
+current_instance P_OPC
+list_designs
+current_instance FSM_ADDER
+report_cell -hier
+report_power -hier
+current_instance adder
+uplevel #0 { report_power -net -analysis_effort low }
+uplevel #0 { report_power -cell -analysis_effort low }
+list_designs
+current_instance add_78
+uplevel #0 { report_power -cell -analysis_effort low }
+uplevel #0 { report_power -net -analysis_effort low }
+current_instance FSM_ADDER
+list_designs
+create clock -name ?CLK? -period 1.93 {clock}
+create_clock -name "CLK" -period 1.93 {clock}
+create_clock -name "CLK" -period 2 {clock}
+current_instance
+create_clock -name "CLK" -period 1.93 {clock}
+uplevel #0 { report_power -analysis_effort low }
+set_max_dynamic_power 30e+6
+compile -exact_map
+uplevel #0 { report_power -analysis_effort low }
+report_clock
+create_clock -name "CLK" -period 10 {clock}
+report_power
+set_max_dynamic_power 10e+6
+compile -exact_map
+report_power
+set_max_dynamic_power 30000000
+compile -exact_map
+report_power
+set_max_dynamic_power 10e-6
+compile -exact_map
+report_power
+report_constraints
+set_max_dynamic_power 50e+6
+compile -exact_map
+report_power
+report_constraints
+set_max_dynamic_power 40e+6
+compile -exact_map
+report_power
+report_constraints
+report_power
+report_constraints
+set_max_dynamic_power 35e+6
+compile -exact_map
+report_power
+report_constraints
+set_max_dynamic_power 30e+6
+compile -exact_map
+report_power
+report_constraints
+set_max_dynamic_power 10e+6
+compile -exact_map
+report_constraints
+set_max_dynamic_power 5e+6
+compile -exact_map
+report_constraints
+set_max_dynamic_power 5e+5
+compile -exact_map
+report_constraints
+set_max_dynamic_power 50
+compile -exact_map
+report_constraints
+report_power
+set_max_dynamic_power 1
+compile -exact_map
+report_constraints
+set_max_dynamic_power 45
+compile -exact_map
+report_constraints
+gui_show_man_page set_max_dynamic_power
+set_max_dynamic_power 45 uW
+compile -exact_map
+report_constraints
+report_power
+set_max_dynamic_power 42 uW
+compile -exact_map
+report_constraints
+report_power
+set_max_dynamic_power 44 uW
+compile -exact_map
+report_constraints
+report_power
+current_design FSM_ADDER
+report_power
+set_fsm_encoding_style gray
+type report_fsm
+report_fsm
+set_fsm_encoding_style one-hot
+set_fsm_encoding_style onehot
+set_fsm_encoding_style one_hot
+report_fsm
+write -format ddc -output /home/lp21.2/Desktop/lab2/synth/fsm_final.ddc

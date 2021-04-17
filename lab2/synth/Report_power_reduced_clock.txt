@@ -1,0 +1,56 @@
+Information: Updating design information... (UID-85)
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : FSM_ADDER
+Version: F-2011.09-SP3
+Date   : Tue Apr 13 11:58:05 2021
+****************************************
+
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /home/mg.lowpower/do/libnangate/NangateOpenCellLibrary_typical_ecsm.db)
+
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+FSM_ADDER              5K_hvratio_1_1    NangateOpenCellLibrary
+
+
+Global Operating Voltage = 1.1  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+  Cell Internal Power  = 148.2740 uW   (71%)
+  Net Switching Power  =  61.9977 uW   (29%)
+                         ---------
+Total Dynamic Power    = 210.2717 uW  (100%)
+
+Cell Leakage Power     =   5.5050 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register          92.8165            4.2052        1.6247e+03           98.6464  (  46.39%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational     55.4576           54.6592        3.8803e+03          113.9970  (  53.61%)
+--------------------------------------------------------------------------------------------------
+Total            148.2740 uW        58.8644 uW     5.5050e+03 nW       212.6434 uW

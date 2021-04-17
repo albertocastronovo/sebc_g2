@@ -1,0 +1,221 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/lp21.2/Desktop/lab2
+T_opt
+!s110 1617099841
+VZQ84XdTcJd?F@MJIdjz_c2
+04 5 4 work tbfsm test 1
+=1-000ae431a4f1-6062fc40-ed7c9-6587
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+Ccfg_dp_adder
+edatapath_adder
+abehavioral
+DAx4 work 14 datapath_adder 10 behavioral 22 dQELMB8a88d33EECd<VDV1
+Z1 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z2 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z5 DEx4 work 14 datapath_adder 0 22 8^nlfKkzOMA?jXMJ^8O3?3
+Z6 w1617094511
+R0
+Z7 8/home/lp21.2/Desktop/lab2/dpadder.vhd
+Z8 F/home/lp21.2/Desktop/lab2/dpadder.vhd
+l0
+L85
+VBeg@g[iMAdmZV3Sfn;QR40
+!s100 6>A<QBcWT>1B6fzZoPfFg0
+Z9 OL;C;10.7c;67
+32
+Z10 !s110 1617099813
+!i10b 0
+Z11 !s108 1617099813.000000
+Z12 !s90 -reportprogress|300|-work|work|/home/lp21.2/Desktop/lab2/dpadder.vhd|
+Z13 !s107 /home/lp21.2/Desktop/lab2/dpadder.vhd|
+!i113 0
+Z14 o-work work
+Z15 tExplicit 1 CvgOpt 0
+Ccfg_fsm_opc
+eFSM_ADDER
+aFSM_OPC
+R2
+R1
+R5
+DAx4 work 9 fsm_adder 7 fsm_opc 22 m1[8Vn]D;PO3M[=ES@iOS0
+R3
+R4
+Z16 DEx4 work 9 fsm_adder 0 22 GSaI=2`Lo]eHK8HOU525W1
+Z17 w1617099778
+R0
+Z18 8/home/lp21.2/Desktop/lab2/FSM_ADDER.vhd
+Z19 F/home/lp21.2/Desktop/lab2/FSM_ADDER.vhd
+l0
+L98
+VVlEHhH:z0Z78=0a6_=ElB2
+!s100 TnTCV`kXP?WOzHMGoVB8B3
+R9
+32
+Z20 !s110 1617099817
+!i10b 0
+Z21 !s108 1617099817.000000
+Z22 !s90 -reportprogress|300|-work|work|/home/lp21.2/Desktop/lab2/FSM_ADDER.vhd|
+Z23 !s107 /home/lp21.2/Desktop/lab2/FSM_ADDER.vhd|
+!i113 0
+R14
+R15
+Ccfg_tb
+eTBFSM
+aTEST
+R16
+DAx4 work 5 tbfsm 4 test 22 X?V5R29VWYPA>j6>0MVcK3
+R3
+R4
+Z24 DEx4 work 5 tbfsm 0 22 84B^DETYo=l2]Njl1GfDX2
+Z25 w1617098472
+R0
+Z26 8/home/lp21.2/Desktop/lab2/tb_fsm1.vhd
+Z27 F/home/lp21.2/Desktop/lab2/tb_fsm1.vhd
+l0
+L50
+V>@dG7mj4Eimff[d[RcMg]3
+!s100 J9_f=@eN>hd2=:U3j[7On0
+R9
+32
+Z28 !s110 1617099821
+!i10b 0
+Z29 !s108 1617099821.000000
+Z30 !s90 -reportprogress|300|-work|work|/home/lp21.2/Desktop/lab2/tb_fsm1.vhd|
+Z31 !s107 /home/lp21.2/Desktop/lab2/tb_fsm1.vhd|
+!i113 0
+R14
+R15
+Edatapath_adder
+R6
+R1
+R2
+R3
+R4
+R0
+R7
+R8
+l0
+L7
+V8^nlfKkzOMA?jXMJ^8O3?3
+!s100 ;EDIX0eEI=L8M2QS]ZT]V0
+R9
+32
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Abehavioral
+R1
+R2
+R3
+R4
+R5
+l33
+L28
+VdQELMB8a88d33EECd<VDV1
+!s100 b=Do5`m7TWkkPVjAW64iC1
+R9
+32
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Efsm_adder
+R17
+R3
+R4
+R0
+R18
+R19
+l0
+L6
+VGSaI=2`Lo]eHK8HOU525W1
+!s100 OW`5Cd`J_>l7>3[:[LdGP0
+R9
+32
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 0
+R14
+R15
+Afsm_opc
+R3
+R4
+R16
+l45
+L16
+Vm1[8Vn]D;PO3M[=ES@iOS0
+!s100 k[_0^5k[?GPHdNIaA8:531
+R9
+32
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 0
+R14
+R15
+Etbfsm
+R25
+R3
+R4
+R0
+R26
+R27
+l0
+L7
+V84B^DETYo=l2]Njl1GfDX2
+!s100 G5<<M]LdF4HJJUY@[2k:f0
+R9
+32
+R28
+!i10b 1
+R29
+R30
+R31
+!i113 0
+R14
+R15
+Atest
+R3
+R4
+R24
+l24
+L10
+VX?V5R29VWYPA>j6>0MVcK3
+!s100 [a<Oj><fQImcHzdUahJ^b0
+R9
+32
+R28
+!i10b 1
+R29
+R30
+R31
+!i113 0
+R14
+R15

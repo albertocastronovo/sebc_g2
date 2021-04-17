@@ -1,0 +1,284 @@
+# //  Questa Sim-64
+# //  Version 10.7c linux_x86_64 Aug 17 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+vlib work
+vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab2/dpadder.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 11:51:04 on Mar 30,2021
+# vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab2/dpadder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity datapath_adder
+# -- Compiling architecture behavioral of datapath_adder
+# -- Compiling configuration CFG_DP_ADDER
+# -- Loading entity datapath_adder
+# -- Loading architecture behavioral of datapath_adder
+# End time: 11:51:04 on Mar 30,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab2/FSM-ADDER.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 11:51:11 on Mar 30,2021
+# vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab2/FSM-ADDER.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Error: /home/lp21.2/Desktop/lab2/FSM-ADDER.vhd(6): near "-": (vcom-1576) expecting IS.
+# End time: 11:51:11 on Mar 30,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab2/dpadder.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 11:55:25 on Mar 30,2021
+# vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab2/dpadder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity datapath_adder
+# -- Compiling architecture behavioral of datapath_adder
+# -- Compiling configuration CFG_DP_ADDER
+# -- Loading entity datapath_adder
+# -- Loading architecture behavioral of datapath_adder
+# End time: 11:55:25 on Mar 30,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab2/FSM-ADDER.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 11:55:30 on Mar 30,2021
+# vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab2/FSM-ADDER.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FSM_ADDER
+# -- Compiling architecture FSM_OPC of FSM_ADDER
+# ** Error: /home/lp21.2/Desktop/lab2/FSM-ADDER.vhd(67): (vcom-1136) Unknown identifier "S0".
+# ** Error: /home/lp21.2/Desktop/lab2/FSM-ADDER.vhd(87): near "others": syntax error
+# ** Error (suppressible): /home/lp21.2/Desktop/lab2/FSM-ADDER.vhd(88): (vcom-1339) Case statement choices cover only 4 out of 5 cases.
+# ** Note: /home/lp21.2/Desktop/lab2/FSM-ADDER.vhd(96): VHDL Compiler exiting
+# End time: 11:55:30 on Mar 30,2021, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab2/dpadder.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 12:00:17 on Mar 30,2021
+# vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab2/dpadder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity datapath_adder
+# -- Compiling architecture behavioral of datapath_adder
+# -- Compiling configuration CFG_DP_ADDER
+# -- Loading entity datapath_adder
+# -- Loading architecture behavioral of datapath_adder
+# End time: 12:00:18 on Mar 30,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab2/FSM_ADDER.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 12:00:22 on Mar 30,2021
+# vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab2/FSM_ADDER.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FSM_ADDER
+# -- Compiling architecture FSM_OPC of FSM_ADDER
+# -- Compiling configuration CFG_FSM_OPC
+# -- Loading entity FSM_ADDER
+# -- Loading architecture FSM_OPC of FSM_ADDER
+# End time: 12:00:22 on Mar 30,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab2/tb_fsm1.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 12:00:28 on Mar 30,2021
+# vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab2/tb_fsm1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TBFSM
+# -- Compiling architecture TEST of TBFSM
+# ** Error: /home/lp21.2/Desktop/lab2/tb_fsm1.vhd(27): Signal "T_OUT" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Note: /home/lp21.2/Desktop/lab2/tb_fsm1.vhd(46): VHDL Compiler exiting
+# End time: 12:00:28 on Mar 30,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab2/tb_fsm1.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 12:01:23 on Mar 30,2021
+# vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab2/tb_fsm1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TBFSM
+# -- Compiling architecture TEST of TBFSM
+# -- Compiling configuration CFG_TB
+# -- Loading entity TBFSM
+# -- Loading architecture TEST of TBFSM
+# -- Loading entity FSM_ADDER
+# End time: 12:01:23 on Mar 30,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tbfsm -t 100ps -voptargs=+acc
+# vsim work.tbfsm -t 100ps -voptargs="+acc" 
+# Start time: 12:02:39 on Mar 30,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: /home/lp21.2/Desktop/lab2/FSM_ADDER.vhd(61): (vopt-3473) Component instance "/TBFSM/U_fsm_opc/adder : dpadder" is not bound.
+# ** Note: (vopt-143) Recognized 1 FSM in architecture body "FSM_ADDER(FSM_OPC)".
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tbfsm(test)#1
+# Loading work.fsm_adder(fsm_opc)#1
+# ** Warning: (vsim-3473) Component instance "adder : dpadder" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /tbfsm/U_fsm_opc File: /home/lp21.2/Desktop/lab2/FSM_ADDER.vhd
+# ** Warning: (vsim-8683) Uninitialized out port /tbfsm/U_fsm_opc/O(15 downto 0) has no driver.
+# This port will contribute value (16'hXXXX) to the signal network.
+add wave *
+power add *
+run 100 ns
+restart -f
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Warning: (vsim-3473) Component instance "adder : dpadder" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /tbfsm/U_fsm_opc File: /home/lp21.2/Desktop/lab2/FSM_ADDER.vhd
+# ** Warning: (vsim-8683) Uninitialized out port /tbfsm/U_fsm_opc/O(15 downto 0) has no driver.
+# This port will contribute value (16'hXXXX) to the signal network.
+add wave sim:/tbfsm/U_fsm_opc/*
+run 100 ns
+restart -f
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Warning: (vsim-3473) Component instance "adder : dpadder" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /tbfsm/U_fsm_opc File: /home/lp21.2/Desktop/lab2/FSM_ADDER.vhd
+# ** Warning: (vsim-8683) Uninitialized out port /tbfsm/U_fsm_opc/O(15 downto 0) has no driver.
+# This port will contribute value (16'hXXXX) to the signal network.
+quit -sim
+# End time: 12:23:27 on Mar 30,2021, Elapsed time: 0:20:48
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab2/dpadder.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 12:23:33 on Mar 30,2021
+# vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab2/dpadder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity datapath_adder
+# -- Compiling architecture behavioral of datapath_adder
+# -- Compiling configuration CFG_DP_ADDER
+# -- Loading entity datapath_adder
+# -- Loading architecture behavioral of datapath_adder
+# End time: 12:23:33 on Mar 30,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab2/FSM_ADDER.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 12:23:37 on Mar 30,2021
+# vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab2/FSM_ADDER.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FSM_ADDER
+# -- Compiling architecture FSM_OPC of FSM_ADDER
+# -- Compiling configuration CFG_FSM_OPC
+# -- Loading entity FSM_ADDER
+# -- Loading architecture FSM_OPC of FSM_ADDER
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading entity datapath_adder
+# End time: 12:23:37 on Mar 30,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab2/tb_fsm1.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 12:23:41 on Mar 30,2021
+# vcom -reportprogress 300 -work work /home/lp21.2/Desktop/lab2/tb_fsm1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TBFSM
+# -- Compiling architecture TEST of TBFSM
+# -- Compiling configuration CFG_TB
+# -- Loading entity TBFSM
+# -- Loading architecture TEST of TBFSM
+# -- Loading entity FSM_ADDER
+# End time: 12:23:41 on Mar 30,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -t 100ps -voptargs=+acc work.tbfsm
+# vsim -t 100ps -voptargs="+acc" work.tbfsm 
+# Start time: 12:24:00 on Mar 30,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vopt-143) Recognized 1 FSM in architecture body "FSM_ADDER(FSM_OPC)".
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tbfsm(test)#1
+# Loading work.fsm_adder(fsm_opc)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading work.datapath_adder(behavioral)#1
+add wave *
+power add *
+run 100 ns
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tbfsm/U_fsm_opc/adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tbfsm/U_fsm_opc/adder
+power report
+# 
+# Power Report Interval
+# 100000 ps
+# 
+# Power Report                        Node     Tc     Ti    Time At 1    Time At 0    Time At X
+# ---------------------------------------------------------------------------------------------
+#                           /tbfsm/T_CLOCK     33      0     51000 ps     49000 ps         0 ps
+#                           /tbfsm/T_RESET      1      0      8000 ps     90000 ps      2000 ps
+# ---------------------------------------------------------------------------------------------
+# 
+restart -f
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+power add /tbfsm/U_fsm_opc/*
+power report
+# 
+# Power Report Interval
+# 0 ps
+# 
+# Power Report                        Node     Tc     Ti    Time At 1    Time At 0    Time At X
+# ---------------------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------------------------
+# 
+run 100ns
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tbfsm/U_fsm_opc/adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tbfsm/U_fsm_opc/adder
+power report
+# 
+# Power Report Interval
+# 100000 ps
+# 
+# Power Report                        Node     Tc     Ti    Time At 1    Time At 0    Time At X
+# ---------------------------------------------------------------------------------------------
+#                   /tbfsm/U_fsm_opc/clock     33      0     51000 ps     49000 ps         0 ps
+#                   /tbfsm/U_fsm_opc/reset      1      0      8000 ps     90000 ps      2000 ps
+#                  /tbfsm/U_fsm_opc/sel(0)      6      0     36000 ps     64000 ps         0 ps
+#                  /tbfsm/U_fsm_opc/sel(1)      8      0     56000 ps     44000 ps         0 ps
+#                  /tbfsm/U_fsm_opc/sel(2)      6      0     54000 ps     46000 ps         0 ps
+#                  /tbfsm/U_fsm_opc/sel(3)      8      0     38000 ps     62000 ps         0 ps
+# ---------------------------------------------------------------------------------------------
+# 
+restart -f
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+power add /tbfsm/U_fsm_opc/P_OPC/*
+# ** Error (suppressible): (vsim-3561) No objects found matching 'P_OPC'.
+# ** Warning: (vsim-8431) The 'power add' command works only on nets/signals
+# 
+# End time: 12:44:31 on Mar 30,2021, Elapsed time: 0:20:31
+# Errors: 0, Warnings: 0

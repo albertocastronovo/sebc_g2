@@ -1,0 +1,74 @@
+ 
+****************************************
+Report : power
+        -net
+        -analysis_effort low
+        -sort_mode net_switching_power
+Design : FSM_ADDER
+Version: F-2011.09-SP3
+Date   : Tue Apr 13 11:24:39 2021
+****************************************
+
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /home/mg.lowpower/do/libnangate/NangateOpenCellLibrary_typical_ecsm.db)
+
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+FSM_ADDER              5K_hvratio_1_1    NangateOpenCellLibrary
+
+
+Global Operating Voltage = 1.1  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+
+  Attributes
+  ----------
+      a  -  Switching activity information annotated on net
+      d  -  Default switching activity information on net
+
+                             Total      Static   Toggle   Switching
+Net                          Net Load   Prob.    Rate     Power      Attrs
+--------------------------------------------------------------------------------
+n9                            11.772    0.228    0.0245      0.1742  
+n10                           10.166    0.325    0.0244      0.1503  
+sel[0]                         8.551    0.186    0.0200      0.1036  
+sel[2]                         7.115    0.294    0.0222      0.0954  
+CURRENT_STATE[1]               6.179    0.228    0.0245      0.0915  
+O[15]                          4.521    0.247    0.0280      0.0767  
+O[12]                          4.521    0.245    0.0280      0.0765  
+O[14]                          4.521    0.246    0.0280      0.0765  
+O[1]                           4.521    0.246    0.0279      0.0762  
+O[11]                          4.521    0.248    0.0278      0.0760  
+O[8]                           4.521    0.247    0.0277      0.0758  
+O[3]                           4.521    0.243    0.0276      0.0755  
+O[0]                           4.521    0.247    0.0276      0.0755  
+O[6]                           4.521    0.248    0.0276      0.0754  
+O[2]                           4.521    0.246    0.0275      0.0752  
+O[4]                           4.521    0.248    0.0275      0.0751  
+O[7]                           4.521    0.244    0.0275      0.0751  
+O[5]                           4.521    0.247    0.0274      0.0750  
+O[9]                           4.521    0.243    0.0274      0.0750  
+O[10]                          4.521    0.245    0.0274      0.0750  
+O[13]                          4.521    0.248    0.0274      0.0749  
+N7                             5.523    0.706    0.0221      0.0739  
+n5                             5.377    0.206    0.0221      0.0720  
+N6                             3.563    0.675    0.0244      0.0527  
+n7                             3.388    0.294    0.0221      0.0453  
+CURRENT_STATE[0]               3.268    0.206    0.0221      0.0437  
+n8                             6.059    0.500    0.0100      0.0367  d
+n6                             2.010    0.772    0.0245      0.0297  
+CURRENT_STATE[2]               1.961    0.706    0.0222      0.0263  
+--------------------------------------------------------------------------------
+Total (29 nets)                                              2.2048 uW

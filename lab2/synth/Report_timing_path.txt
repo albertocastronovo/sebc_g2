@@ -1,0 +1,72 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+        -sort_by group
+Design : FSM_ADDER
+Version: F-2011.09-SP3
+Date   : Tue Apr 13 11:12:44 2021
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: CURRENT_STATE_reg[1]
+              (rising edge-triggered flip-flop clocked by CLK)
+  Endpoint: adder/SUM_reg[15]
+            (rising edge-triggered flip-flop clocked by CLK)
+  Path Group: CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  FSM_ADDER          5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock CLK (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  CURRENT_STATE_reg[1]/CK (DFFR_X1)                       0.00       0.00 r
+  CURRENT_STATE_reg[1]/Q (DFFR_X1)                        0.09       0.09 f
+  U15/ZN (NOR2_X1)                                        0.08       0.17 r
+  U14/ZN (OR2_X1)                                         0.06       0.22 r
+  adder/SEL10 (datapath_adder)                            0.00       0.22 r
+  adder/U6/ZN (INV_X1)                                    0.03       0.25 f
+  adder/U12/ZN (AND2_X1)                                  0.09       0.34 f
+  adder/U64/ZN (AOI22_X1)                                 0.09       0.43 r
+  adder/U63/ZN (NAND2_X1)                                 0.04       0.46 f
+  adder/add_78/B[0] (datapath_adder_DW01_add_0)           0.00       0.46 f
+  adder/add_78/U1/ZN (AND2_X1)                            0.04       0.50 f
+  adder/add_78/U1_1/CO (FA_X1)                            0.09       0.59 f
+  adder/add_78/U1_2/CO (FA_X1)                            0.09       0.68 f
+  adder/add_78/U1_3/CO (FA_X1)                            0.09       0.77 f
+  adder/add_78/U1_4/CO (FA_X1)                            0.09       0.87 f
+  adder/add_78/U1_5/CO (FA_X1)                            0.09       0.96 f
+  adder/add_78/U1_6/CO (FA_X1)                            0.09       1.05 f
+  adder/add_78/U1_7/CO (FA_X1)                            0.09       1.14 f
+  adder/add_78/U1_8/CO (FA_X1)                            0.09       1.23 f
+  adder/add_78/U1_9/CO (FA_X1)                            0.09       1.32 f
+  adder/add_78/U1_10/CO (FA_X1)                           0.09       1.42 f
+  adder/add_78/U1_11/CO (FA_X1)                           0.09       1.51 f
+  adder/add_78/U1_12/CO (FA_X1)                           0.09       1.60 f
+  adder/add_78/U1_13/CO (FA_X1)                           0.09       1.69 f
+  adder/add_78/U1_14/CO (FA_X1)                           0.09       1.78 f
+  adder/add_78/U1_15/S (FA_X1)                            0.13       1.91 r
+  adder/add_78/SUM[15] (datapath_adder_DW01_add_0)        0.00       1.91 r
+  adder/SUM_reg[15]/D (DFFR_X1)                           0.01       1.92 r
+  data arrival time                                                  1.92
+
+  clock CLK (rise edge)                                  10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  adder/SUM_reg[15]/CK (DFFR_X1)                          0.00      10.00 r
+  library setup time                                     -0.03       9.97
+  data required time                                                 9.97
+  --------------------------------------------------------------------------
+  data required time                                                 9.97
+  data arrival time                                                 -1.92
+  --------------------------------------------------------------------------
+  slack (MET)                                                        8.05
+
+
