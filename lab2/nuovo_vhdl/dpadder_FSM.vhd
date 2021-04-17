@@ -54,4 +54,9 @@ ARCHITECTURE behavioral OF dpadder_FSM IS
 		END PROCESS;
 		
 END behavioral;
+
+configuration CFG_dpadder_FSM of dpadder_FSM is
+	for  behavioral
+	end for;
+end CFG_dpadder_FSM;
 	

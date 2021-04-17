@@ -67,3 +67,8 @@ ARCHITECTURE structural OF fsmadder IS
 			);
 			
 END structural;
+
+configuration CFG_fsmadder of fsmadder is
+	for  structural
+	end for;
+end CFG_fsmadder;
