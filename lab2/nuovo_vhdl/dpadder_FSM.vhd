@@ -5,7 +5,7 @@ ENTITY dpadder_FSM IS
 	PORT(
 		clock	: IN std_logic;
 		reset	: IN std_logic;
-		sel 	: OUT std_logic_vector(3 DOWNTO 0)
+		sel 	: OUT std_logic_vector(3 DOWNTO 0);
 	);
 END dpadder_FSM;
 
@@ -19,7 +19,7 @@ ARCHITECTURE behavioral OF dpadder_FSM IS
 
 
 	BEGIN
-		PROCESS(clock, reset)
+		PROCESS(clock, reset) -- state advance
 			BEGIN
 				IF reset = '1' THEN
 					state <= s1;
@@ -36,6 +36,7 @@ ARCHITECTURE behavioral OF dpadder_FSM IS
 						WHEN OTHERS =>
 							state <= s1;
 					END CASE;
+				END IF;
 		END PROCESS;
 		
 		PROCESS(state)
@@ -51,6 +52,7 @@ ARCHITECTURE behavioral OF dpadder_FSM IS
 						sel <= "1110";
 					WHEN OTHERS =>
 						sel <= "1010";
+				END CASE;
 		END PROCESS;
 		
 END behavioral;
