@@ -5,7 +5,7 @@ ENTITY fsmadder IS
 	PORT(
 		A, B, C, D, E, F	: IN std_logic_vector(15 DOWNTO 0);
 		clock, reset		: IN std_logic;
-		O					: BUFFER std_logic_vector(15 DOWNTO 0);
+		O			: BUFFER std_logic_vector(15 DOWNTO 0)
 	);
 END fsmadder;
 
