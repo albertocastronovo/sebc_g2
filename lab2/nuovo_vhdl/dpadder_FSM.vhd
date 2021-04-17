@@ -5,7 +5,7 @@ ENTITY dpadder_FSM IS
 	PORT(
 		clock	: IN std_logic;
 		reset	: IN std_logic;
-		sel 	: OUT std_logic_vector(3 DOWNTO 0);
+		sel 	: OUT std_logic_vector(3 DOWNTO 0)
 	);
 END dpadder_FSM;
 
