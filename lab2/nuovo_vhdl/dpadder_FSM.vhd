@@ -19,7 +19,7 @@ ARCHITECTURE behavioral OF dpadder_FSM IS
 
 
 	BEGIN
-		PROCESS(clock, reset) -- state advance
+		PROCESS(clock, reset)
 			BEGIN
 				IF reset = '1' THEN
 					state <= s1;
