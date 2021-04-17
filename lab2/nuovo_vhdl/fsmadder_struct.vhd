@@ -62,7 +62,7 @@ ARCHITECTURE structural OF fsmadder IS
 			SEL00 => sel(3),
 			SEL01 => sel(2),
 			SEL10 => sel(1),
-			SLE11 => sel(0),
+			SEL11 => sel(0),
 			SUM => O
 			);
 			
