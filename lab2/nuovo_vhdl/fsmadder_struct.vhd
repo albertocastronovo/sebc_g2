@@ -15,7 +15,7 @@ ARCHITECTURE structural OF fsmadder IS
 		PORT(
 			clock	: IN std_logic;
 			reset	: IN std_logic;
-			sel 	: OUT std_logic_vector(3 DOWNTO 0);
+			sel 	: OUT std_logic_vector(3 DOWNTO 0)
 		);
 	END COMPONENT;
 
@@ -35,14 +35,14 @@ ARCHITECTURE structural OF fsmadder IS
 			SEL01	: IN std_logic;
 			SEL10	: IN std_logic;
 			SEL11	: IN std_logic;
-			SUM		: OUT std_logic_vector(15 DOWNTO 0)
+			SUM	: OUT std_logic_vector(15 DOWNTO 0)
 		);
 	END COMPONENT;
 	
 	SIGNAL sel	: std_logic_vector(3 DOWNTO 0);
 	
 	BEGIN
-		fsm			: dpadder_FSM PORT MAP(
+		fsm		: dpadder_FSM PORT MAP(
 			clock 	=> clock,
 			reset 	=> reset,
 			sel 	=> sel
