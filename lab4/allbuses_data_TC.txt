@@ -1,0 +1,49 @@
+
+Power Report Interval
+100000 ns
+
+Power Report                        Node     Tc     Ti    Time At 1    Time At 0    Time At X
+---------------------------------------------------------------------------------------------
+                         /testbench/A(7)   4975      0        50030        49970            0
+                         /testbench/A(6)   5022      0        49455        50545            0
+                         /testbench/A(5)   4988      0        49385        50615            0
+                         /testbench/A(4)   4972      0        49970        50030            0
+                         /testbench/A(3)   4961      0        51255        48745            0
+                         /testbench/A(2)   4965      0        49900        50100            0
+                         /testbench/A(1)   5025      0        50000        50000            0
+                         /testbench/A(0)   5060      0        49940        50060            0
+              /testbench/COUNTBUSNORM(7)   4974      0        50030        49970            0
+              /testbench/COUNTBUSNORM(6)   5022      0        49460        50540            0
+              /testbench/COUNTBUSNORM(5)   4987      0        49385        50615            0
+              /testbench/COUNTBUSNORM(4)   4972      0        49970        50030            0
+              /testbench/COUNTBUSNORM(3)   4960      0        51250        48750            0
+              /testbench/COUNTBUSNORM(2)   4965      0        49895        50105            0
+              /testbench/COUNTBUSNORM(1)   5024      0        50000        50000            0
+              /testbench/COUNTBUSNORM(0)   5060      0        49940        50060            0
+               /testbench/COUNTBUSINV(8)   3650      0        49260        50740            0
+               /testbench/COUNTBUSINV(7)   3576      0        48810        51190            0
+               /testbench/COUNTBUSINV(6)   3612      0        49600        50400            0
+               /testbench/COUNTBUSINV(5)   3617      0        52245        47755            0
+               /testbench/COUNTBUSINV(4)   3640      0        50190        49810            0
+               /testbench/COUNTBUSINV(3)   3614      0        49690        50310            0
+               /testbench/COUNTBUSINV(2)   3601      0        50415        49585            0
+               /testbench/COUNTBUSINV(1)   3640      0        50300        49700            0
+               /testbench/COUNTBUSINV(0)   3722      0        51500        48500            0
+             /testbench/COUNTBUSTRANS(7)   5003      0        49835        50165            0
+             /testbench/COUNTBUSTRANS(6)   4946      0        49830        50170            0
+             /testbench/COUNTBUSTRANS(5)   4939      0        50485        49515            0
+             /testbench/COUNTBUSTRANS(4)   4997      0        49595        50405            0
+             /testbench/COUNTBUSTRANS(3)   5125      0        49955        50045            0
+             /testbench/COUNTBUSTRANS(2)   4990      0        50250        49750            0
+             /testbench/COUNTBUSTRANS(1)   5000      0        49890        50110            0
+             /testbench/COUNTBUSTRANS(0)   4994      0        49540        50460            0
+              /testbench/COUNTBUSGRAY(7)   4974      0        50030        49970            0
+              /testbench/COUNTBUSGRAY(6)   5088      0        50110        49890            0
+              /testbench/COUNTBUSGRAY(5)   4953      0        50105        49895            0
+              /testbench/COUNTBUSGRAY(4)   4981      0        50515        49485            0
+              /testbench/COUNTBUSGRAY(3)   4938      0        49420        50580            0
+              /testbench/COUNTBUSGRAY(2)   5057      0        50325        49675            0
+              /testbench/COUNTBUSGRAY(1)   4963      0        50715        49285            0
+              /testbench/COUNTBUSGRAY(0)   5076      0        49720        50280            0
+---------------------------------------------------------------------------------------------
+

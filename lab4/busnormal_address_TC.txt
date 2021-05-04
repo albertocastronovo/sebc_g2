@@ -1,0 +1,58 @@
+
+Power Report Interval
+100000 ns
+
+Power Report                        Node     Tc     Ti    Time At 1    Time At 0    Time At X
+---------------------------------------------------------------------------------------------
+                       /testbench/Ain[7]     97      0        48175        51825            0
+                       /testbench/Ain[6]    118      0        37760        62240            0
+                       /testbench/Ain[5]    312      0        49920        50080            0
+                       /testbench/Ain[4]    625      0        49935        50065            0
+                       /testbench/Ain[3]   1250      0        50000        50000            0
+                       /testbench/Ain[2]   2500      0        50000        50000            0
+                       /testbench/Ain[1]   5000      0        50000        50000            0
+                       /testbench/Ain[0]  10001      0        50000        50000            0
+                           /testbench/ck  20000      0        50000        50000            0
+                  /testbench/ABUSNORM(7)     97      0        48175        51825            0
+                  /testbench/ABUSNORM(6)    118      0        37760        62240            0
+                  /testbench/ABUSNORM(5)    312      0        49920        50080            0
+                  /testbench/ABUSNORM(4)    625      0        49935        50065            0
+                  /testbench/ABUSNORM(3)   1250      0        50000        50000            0
+                  /testbench/ABUSNORM(2)   2500      0        50000        50000            0
+                  /testbench/ABUSNORM(1)   5000      0        50000        50000            0
+                  /testbench/ABUSNORM(0)  10001      0        50000        50000            0
+              /testbench/COUNTBUSNORM(7)     97      0        48165        51835            0
+              /testbench/COUNTBUSNORM(6)    118      0        37760        62240            0
+              /testbench/COUNTBUSNORM(5)    312      0        49920        50080            0
+              /testbench/COUNTBUSNORM(4)    625      0        49925        50075            0
+              /testbench/COUNTBUSNORM(3)   1250      0        50000        50000            0
+              /testbench/COUNTBUSNORM(2)   2500      0        50000        50000            0
+              /testbench/COUNTBUSNORM(1)   5000      0        50000        50000            0
+              /testbench/COUNTBUSNORM(0)  10000      0        50000        50000            0
+                  /testbench/CBUSNORM(7)     97      0        48155        51845            0
+                  /testbench/CBUSNORM(6)    118      0        37760        62240            0
+                  /testbench/CBUSNORM(5)    312      0        49920        50080            0
+                  /testbench/CBUSNORM(4)    624      0        49920        50080            0
+                  /testbench/CBUSNORM(3)   1249      0        49995        50005            0
+                  /testbench/CBUSNORM(2)   2499      0        49995        50005            0
+                  /testbench/CBUSNORM(1)   4999      0        49995        50005            0
+                  /testbench/CBUSNORM(0)   9999      0        49995        50005            0
+                           /testbench/CK  20000      0        50000        50000            0
+                         /testbench/A(7)     97      0        48175        51825            0
+                         /testbench/A(6)    118      0        37760        62240            0
+                         /testbench/A(5)    312      0        49920        50080            0
+                         /testbench/A(4)    625      0        49935        50065            0
+                         /testbench/A(3)   1250      0        50000        50000            0
+                         /testbench/A(2)   2500      0        50000        50000            0
+                         /testbench/A(1)   5000      0        50000        50000            0
+                         /testbench/A(0)  10001      0        50000        50000            0
+                      /testbench/line[7]   4974      0        50030        49970            0
+                      /testbench/line[6]   5021      0        49455        50545            0
+                      /testbench/line[5]   4987      0        49385        50615            0
+                      /testbench/line[4]   4972      0        49970        50030            0
+                      /testbench/line[3]   4961      0        51255        48745            0
+                      /testbench/line[2]   4964      0        49900        50100            0
+                      /testbench/line[1]   5024      0        50000        50000            0
+                      /testbench/line[0]   5060      0        49940        50060            0
+---------------------------------------------------------------------------------------------
+

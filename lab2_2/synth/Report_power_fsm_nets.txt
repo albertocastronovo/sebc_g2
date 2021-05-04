@@ -1,0 +1,59 @@
+ 
+****************************************
+Report : power
+        -net
+        -analysis_effort low
+        -sort_mode net_switching_power
+Design : fsmadder/fsm (dpadder_FSM)
+Version: F-2011.09-SP3
+Date   : Sat Apr 17 18:27:56 2021
+****************************************
+
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /home/mg.lowpower/do/libnangate/NangateOpenCellLibrary_typical_ecsm.db)
+
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+fsmadder               5K_hvratio_1_1    NangateOpenCellLibrary
+
+
+Global Operating Voltage = 1.1  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+
+  Attributes
+  ----------
+      a  -  Switching activity information annotated on net
+      d  -  Default switching activity information on net
+
+                             Total      Static   Toggle   Switching
+Net                          Net Load   Prob.    Rate     Power      Attrs
+--------------------------------------------------------------------------------
+sel[0]                        11.772    0.227    0.0244      0.1739  
+sel[2]                        10.166    0.325    0.0245      0.1504  
+sel[1]                         7.115    0.294    0.0221      0.0953  
+sel[3]                         7.115    0.186    0.0200      0.0860  
+state[2]                       6.127    0.706    0.0221      0.0821  
+state[1]                       5.404    0.228    0.0244      0.0799  
+n5                             5.391    0.911    0.0181      0.0591  
+n6                             4.025    0.206    0.0221      0.0539  
+N6                             3.563    0.675    0.0245      0.0527  
+n2                             3.935    0.794    0.0221      0.0527  
+N7                             3.474    0.706    0.0221      0.0465  
+n4                             3.388    0.794    0.0221      0.0454  
+n3                             6.059    0.500    0.0100      0.0367  d
+state[0]                       2.542    0.206    0.0221      0.0340  
+--------------------------------------------------------------------------------
+Total (14 nets)                                              1.0487 uW

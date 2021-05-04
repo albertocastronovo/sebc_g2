@@ -1,0 +1,48 @@
+
+Power Report Interval
+100000 ns
+
+Power Report                        Node     Tc     Ti    Time At 1    Time At 0    Time At X
+---------------------------------------------------------------------------------------------
+                         /testbench/A(7)     97      0        48175        51825            0
+                         /testbench/A(6)    118      0        37760        62240            0
+                         /testbench/A(5)    312      0        49920        50080            0
+                         /testbench/A(4)    625      0        49935        50065            0
+                         /testbench/A(3)   1250      0        50000        50000            0
+                         /testbench/A(2)   2500      0        50000        50000            0
+                         /testbench/A(1)   5000      0        50000        50000            0
+                         /testbench/A(0)  10001      0        50000        50000            0
+              /testbench/COUNTBUSNORM(7)     97      0        48165        51835            0
+              /testbench/COUNTBUSNORM(6)    118      0        37760        62240            0
+              /testbench/COUNTBUSNORM(5)    312      0        49920        50080            0
+              /testbench/COUNTBUSNORM(4)    625      0        49925        50075            0
+              /testbench/COUNTBUSNORM(3)   1250      0        50000        50000            0
+              /testbench/COUNTBUSNORM(2)   2500      0        50000        50000            0
+              /testbench/COUNTBUSNORM(1)   5000      0        50000        50000            0
+              /testbench/COUNTBUSNORM(0)  10000      0        50000        50000            0
+               /testbench/COUNTBUSINV(8)    625      0        49925        50075            0
+               /testbench/COUNTBUSINV(7)    528      0        50080        49920            0
+               /testbench/COUNTBUSINV(6)    507      0        49925        50075            0
+               /testbench/COUNTBUSINV(5)    313      0        49925        50075            0
+               /testbench/COUNTBUSINV(3)    625      0        50005        49995            0
+               /testbench/COUNTBUSINV(2)   1875      0        50005        49995            0
+               /testbench/COUNTBUSINV(1)   4375      0        50005        49995            0
+               /testbench/COUNTBUSINV(0)   9375      0        50005        49995            0
+             /testbench/COUNTBUSTRANS(7)   4817      0        24085        75915            0
+             /testbench/COUNTBUSTRANS(6)   3776      0        18880        81120            0
+             /testbench/COUNTBUSTRANS(5)   4992      0        24960        75040            0
+             /testbench/COUNTBUSTRANS(4)   4993      0        24965        75035            0
+             /testbench/COUNTBUSTRANS(3)   5000      0        25000        75000            0
+             /testbench/COUNTBUSTRANS(2)   5000      0        25000        75000            0
+             /testbench/COUNTBUSTRANS(1)   5000      0        25000        75000            0
+             /testbench/COUNTBUSTRANS(0)   5000      0        50000        50000            0
+              /testbench/COUNTBUSGRAY(7)     97      0        48165        51835            0
+              /testbench/COUNTBUSGRAY(6)     55      0        24485        75515            0
+              /testbench/COUNTBUSGRAY(5)    194      0        49920        50080            0
+              /testbench/COUNTBUSGRAY(4)    313      0        49925        50075            0
+              /testbench/COUNTBUSGRAY(3)    625      0        50005        49995            0
+              /testbench/COUNTBUSGRAY(2)   1250      0        50000        50000            0
+              /testbench/COUNTBUSGRAY(1)   2500      0        50000        50000            0
+              /testbench/COUNTBUSGRAY(0)   5000      0        50000        50000            0
+---------------------------------------------------------------------------------------------
+

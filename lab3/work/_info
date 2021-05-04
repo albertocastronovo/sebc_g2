@@ -1,0 +1,319 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/lp21.2/Desktop/lab3
+T_opt
+!s110 1618908663
+V]J@VDP1Nh@UFz;<I:fR7[3
+Z1 04 9 4 work tbinccomp fast 0
+=1-000ae431a4f1-607e95f7-43b43-43b1
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1619510670
+VFKnnKk=AbjXifh^L>:j=P3
+04 7 10 work inccomp behavioral 1
+=1-000ae431a4f1-6087c58e-aaebc-60fc
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1619511735
+V7_TTY9P_G<ZJS4ZUl8?Y51
+R1
+=1-000ae431a4f1-6087c9b7-9c8f2-47c1
+R4
+R2
+n@_opt2
+R3
+Ccfg_ckgbug_test
+eCKGBUG
+aTEST
+Z5 DEx4 work 2 fd 0 22 9g>Z=9bYKj5T^_>;P0^D40
+DCx4 work 12 cfg_fd_pluto 0 22 5UK3>i62ZckEg8kF8onJ]1
+DAx4 work 6 ckgbug 4 test 22 6P4z2=UQT_JMYE4m^e;>d1
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z8 DEx4 work 6 ckgbug 0 22 i0ad5jE`c8DU[63z[n?JI2
+Z9 w1618908229
+R0
+Z10 8/home/lp21.2/Desktop/lab3/ckgbug.vhd
+Z11 F/home/lp21.2/Desktop/lab3/ckgbug.vhd
+l0
+L65
+VIG]g_jA:mDZCflzNXRIJ02
+!s100 6lZA3n_<=9`Q`WO3NFXoJ1
+Z12 OL;C;10.7c;67
+32
+Z13 !s110 1618908246
+!i10b 0
+Z14 !s108 1618908246.000000
+Z15 !s90 -reportprogress|300|-work|work|/home/lp21.2/Desktop/lab3/ckgbug.vhd|
+Z16 !s107 /home/lp21.2/Desktop/lab3/ckgbug.vhd|
+!i113 0
+Z17 o-work work
+Z18 tExplicit 1 CvgOpt 0
+Ccfg_fd_pippo
+eFD
+aPIPPO
+DAx4 work 2 fd 5 pippo 22 D[XBkz09AzFK<kA9^TmXa0
+R6
+R7
+R5
+Z19 w1618907812
+R0
+Z20 8/home/lp21.2/Desktop/lab3/fd.vhd
+Z21 F/home/lp21.2/Desktop/lab3/fd.vhd
+l0
+L44
+VH9@TjAN>dQK5KCLLAPX]b0
+!s100 ILaMdNiCeAn^GdZ^nC0[C1
+R12
+32
+Z22 !s110 1618907836
+!i10b 0
+Z23 !s108 1618907836.000000
+Z24 !s90 -reportprogress|300|-work|work|/home/lp21.2/Desktop/lab3/fd.vhd|
+Z25 !s107 /home/lp21.2/Desktop/lab3/fd.vhd|
+!i113 0
+R17
+R18
+Ccfg_fd_pluto
+eFD
+aPLUTO
+DAx4 work 2 fd 5 pluto 22 5?bI9]:4HcAQM0AY:m83@2
+R6
+R7
+R5
+R19
+R0
+R20
+R21
+l0
+L50
+V5UK3>i62ZckEg8kF8onJ]1
+!s100 <e6XkBm65:?3OXb:G]NDl3
+R12
+32
+R22
+!i10b 0
+R23
+R24
+R25
+!i113 0
+R17
+R18
+Eckgbug
+R9
+R6
+R7
+R0
+R10
+R11
+l0
+L5
+Vi0ad5jE`c8DU[63z[n?JI2
+!s100 zU5S;_UMS2CleYmjD:Fk83
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+R18
+Atest
+R6
+R7
+R8
+l31
+L8
+V6P4z2=UQT_JMYE4m^e;>d1
+!s100 i^UEFQ::UkBAgd;`8`3o[1
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+R18
+Efd
+R19
+R6
+R7
+R0
+R20
+R21
+l0
+L4
+V9g>Z=9bYKj5T^_>;P0^D40
+!s100 5Ah>[R?SSFVYK=4UZmM>N2
+R12
+32
+R22
+!i10b 1
+R23
+R24
+R25
+!i113 0
+R17
+R18
+Apluto
+R6
+R7
+R5
+l30
+L28
+V5?bI9]:4HcAQM0AY:m83@2
+!s100 WI?92lOTQPnak@J<Y8iEQ0
+R12
+32
+R22
+!i10b 1
+R23
+R24
+R25
+!i113 0
+R17
+R18
+Apippo
+R6
+R7
+R5
+l14
+L12
+VD[XBkz09AzFK<kA9^TmXa0
+!s100 11:b6d03K7RSlOB@lc6Dj0
+R12
+32
+R22
+!i10b 1
+R23
+R24
+R25
+!i113 0
+R17
+R18
+Einccomp
+Z26 w1619511559
+Z27 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z28 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
+R6
+R7
+R0
+Z29 8/home/lp21.2/Desktop/lab3/inccomp_mod.vhd
+Z30 F/home/lp21.2/Desktop/lab3/inccomp_mod.vhd
+l0
+L5
+VhFQ]Z`9j<`6o9<h51HkTH2
+!s100 >KM=JEAJHXQ[CSAB41Hn00
+R12
+32
+Z31 !s110 1619511715
+!i10b 1
+Z32 !s108 1619511715.000000
+Z33 !s90 -reportprogress|300|-work|work|/home/lp21.2/Desktop/lab3/inccomp_mod.vhd|
+Z34 !s107 /home/lp21.2/Desktop/lab3/inccomp_mod.vhd|
+!i113 0
+R17
+R18
+Abehavioral
+R27
+R28
+R6
+R7
+DEx4 work 7 inccomp 0 22 hFQ]Z`9j<`6o9<h51HkTH2
+l17
+L13
+VU42^Z[;;YhMj`iCcfP1FX3
+!s100 <?cfhVWPH@QH5<6=jddD>3
+R12
+32
+R31
+!i10b 1
+R32
+R33
+R34
+!i113 0
+R17
+R18
+Einccomp2
+Z35 w1619511700
+R27
+R28
+R6
+R7
+R0
+Z36 8/home/lp21.2/Desktop/lab3/inccomp_modificato.vhd
+Z37 F/home/lp21.2/Desktop/lab3/inccomp_modificato.vhd
+l0
+L5
+VZ2O33m>?zfOkaWV[Re[m?0
+!s100 Ke3YjPYUH7184>XA0D@YD1
+R12
+32
+Z38 !s110 1619511712
+!i10b 1
+Z39 !s108 1619511712.000000
+Z40 !s90 -reportprogress|300|-work|work|/home/lp21.2/Desktop/lab3/inccomp_modificato.vhd|
+Z41 !s107 /home/lp21.2/Desktop/lab3/inccomp_modificato.vhd|
+!i113 0
+R17
+R18
+Abehavioral
+R27
+R28
+R6
+R7
+DEx4 work 8 inccomp2 0 22 Z2O33m>?zfOkaWV[Re[m?0
+l18
+L13
+VCESlJd7oYZbnACe_YzaV61
+!s100 MEK8d^j[kh6T4Z>:OYoNj3
+R12
+32
+R38
+!i10b 1
+R39
+R40
+R41
+!i113 0
+R17
+R18
+vtbinccomp
+!s110 1619511718
+!i10b 1
+!s100 nB<X1l>4B8`LZl773Mf4d0
+IFnNoH?9b9J1Pi4=N81zG:2
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1618905978
+8/home/lp21.2/Desktop/lab3/tb_inccomp.v
+F/home/lp21.2/Desktop/lab3/tb_inccomp.v
+L0 2
+OL;L;10.7c;67
+r1
+!s85 0
+31
+!s108 1619511718.000000
+!s107 /home/lp21.2/Desktop/lab3/tb_inccomp.v|
+!s90 -reportprogress|300|-work|work|/home/lp21.2/Desktop/lab3/tb_inccomp.v|
+!i113 0
+o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2

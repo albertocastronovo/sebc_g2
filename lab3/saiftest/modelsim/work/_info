@@ -1,0 +1,61 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/lp21.2/Desktop/lab3/saiftest/modelsim
+T_opt
+!s110 1619513255
+VOTlXNOTa;Nfdd4FF61Klk0
+04 9 4 work tbinccomp fast 0
+=1-000ae431a4f1-6087cfa7-646a5-53b2
+o-quiet -auto_acc_if_foreign -work work -L /software/dk/nangate45/verilog/qsim10.7c -sdftyp /tbinccomp/DUT=../inccomp.sdf -suppress 1948 +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vinccomp
+!s110 1619513092
+!i10b 1
+!s100 Qj`AX2X^KHGPcN>WI0TKj2
+IgVcE`aZa8h?2^K9mo@8<V0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1619512934
+8/home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v
+F/home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v
+L0 2
+Z3 OL;L;10.7c;67
+r1
+!s85 0
+31
+!s108 1619513092.000000
+!s107 /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v|
+!s90 -reportprogress|300|-work|work|/home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v|
+!i113 0
+Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vtbinccomp
+!s110 1619513096
+!i10b 1
+!s100 nB<X1l>4B8`LZl773Mf4d0
+IM[Gek03KbO]A<RQag:Vn`3
+R2
+R0
+w1618905978
+8/home/lp21.2/Desktop/lab3/saiftest/tb_inccomp.v
+F/home/lp21.2/Desktop/lab3/saiftest/tb_inccomp.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1619513096.000000
+!s107 /home/lp21.2/Desktop/lab3/saiftest/tb_inccomp.v|
+!s90 -reportprogress|300|-work|work|/home/lp21.2/Desktop/lab3/saiftest/tb_inccomp.v|
+!i113 0
+R4
+R1

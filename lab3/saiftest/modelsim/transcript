@@ -1,0 +1,203 @@
+# //  Questa Sim-64
+# //  Version 10.7c linux_x86_64 Aug 17 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+vlib work
+vlog -reportprogress 300 -work work /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 10:44:52 on Apr 27,2021
+# vlog -reportprogress 300 -work work /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v 
+# -- Compiling module inccomp
+# 
+# Top level modules:
+# 	inccomp
+# End time: 10:44:52 on Apr 27,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work /home/lp21.2/Desktop/lab3/saiftest/tb_inccomp.v
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 10:44:56 on Apr 27,2021
+# vlog -reportprogress 300 -work work /home/lp21.2/Desktop/lab3/saiftest/tb_inccomp.v 
+# -- Compiling module tbinccomp
+# 
+# Top level modules:
+# 	tbinccomp
+# End time: 10:44:56 on Apr 27,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+forward.do
+# invalid command name "forward.do"
+do forward.do
+# vsim -voptargs="+acc" -L /software/dk/nangate45/verilog/qsim10.7c -sdftyp "/tbinccomp/DUT=../inccomp.sdf" work.tbinccomp -t ps "+nowarnTSCALE" 
+# Start time: 10:47:35 on Apr 27,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v(18): (vopt-2685) [TFMPC] - Too few port connections for 'C_reg_7_'.  Expected 5, found 4.
+# ** Warning: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v(18): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v(19): (vopt-2685) [TFMPC] - Too few port connections for 'C_reg_6_'.  Expected 5, found 4.
+# ** Warning: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v(19): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v(20): (vopt-2685) [TFMPC] - Too few port connections for 'C_reg_5_'.  Expected 5, found 4.
+# ** Warning: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v(20): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v(21): (vopt-2685) [TFMPC] - Too few port connections for 'C_reg_4_'.  Expected 5, found 4.
+# ** Warning: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v(21): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v(22): (vopt-2685) [TFMPC] - Too few port connections for 'C_reg_3_'.  Expected 5, found 4.
+# ** Warning: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v(22): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v(23): (vopt-2685) [TFMPC] - Too few port connections for 'C_reg_2_'.  Expected 5, found 4.
+# ** Warning: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v(23): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v(24): (vopt-2685) [TFMPC] - Too few port connections for 'C_reg_1_'.  Expected 5, found 4.
+# ** Warning: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v(24): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v(25): (vopt-2685) [TFMPC] - Too few port connections for 'C_reg_0_'.  Expected 5, found 4.
+# ** Warning: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v(25): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v(26): (vopt-2685) [TFMPC] - Too few port connections for 'syncha_reg_0_'.  Expected 5, found 4.
+# ** Warning: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v(26): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v(28): (vopt-2685) [TFMPC] - Too few port connections for 'syncha_reg_1_'.  Expected 5, found 4.
+# ** Warning: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v(28): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v(30): (vopt-2685) [TFMPC] - Too few port connections for 'syncha_reg_2_'.  Expected 5, found 4.
+# ** Warning: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v(30): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v(32): (vopt-2685) [TFMPC] - Too few port connections for 'syncha_reg_3_'.  Expected 5, found 4.
+# ** Warning: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v(32): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v(34): (vopt-2685) [TFMPC] - Too few port connections for 'syncha_reg_4_'.  Expected 5, found 4.
+# ** Warning: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v(34): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v(36): (vopt-2685) [TFMPC] - Too few port connections for 'syncha_reg_5_'.  Expected 5, found 4.
+# ** Warning: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v(36): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v(38): (vopt-2685) [TFMPC] - Too few port connections for 'syncha_reg_6_'.  Expected 5, found 4.
+# ** Warning: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v(38): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v(40): (vopt-2685) [TFMPC] - Too few port connections for 'syncha_reg_7_'.  Expected 5, found 4.
+# ** Warning: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v(40): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v(42): (vopt-2685) [TFMPC] - Too few port connections for 'synchb_reg_0_'.  Expected 5, found 4.
+# ** Warning: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v(42): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v(44): (vopt-2685) [TFMPC] - Too few port connections for 'synchb_reg_1_'.  Expected 5, found 4.
+# ** Warning: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v(44): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v(46): (vopt-2685) [TFMPC] - Too few port connections for 'synchb_reg_2_'.  Expected 5, found 4.
+# ** Warning: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v(46): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v(48): (vopt-2685) [TFMPC] - Too few port connections for 'synchb_reg_3_'.  Expected 5, found 4.
+# ** Warning: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v(48): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v(50): (vopt-2685) [TFMPC] - Too few port connections for 'synchb_reg_4_'.  Expected 5, found 4.
+# ** Warning: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v(50): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v(52): (vopt-2685) [TFMPC] - Too few port connections for 'synchb_reg_5_'.  Expected 5, found 4.
+# ** Warning: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v(52): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v(54): (vopt-2685) [TFMPC] - Too few port connections for 'synchb_reg_6_'.  Expected 5, found 4.
+# ** Warning: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v(54): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v(56): (vopt-2685) [TFMPC] - Too few port connections for 'synchb_reg_7_'.  Expected 5, found 4.
+# ** Warning: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v(56): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# Loading work.tbinccomp(fast)
+# Loading work.inccomp(fast)
+# Loading /software/dk/nangate45/verilog/qsim10.7c.DFFR_X1(fast)
+# Loading /software/dk/nangate45/verilog/qsim10.7c.INV_X1(fast)
+# Loading /software/dk/nangate45/verilog/qsim10.7c.MUX2_X1(fast)
+# Loading /software/dk/nangate45/verilog/qsim10.7c.AOI21_X1(fast)
+# Loading /software/dk/nangate45/verilog/qsim10.7c.OAI221_X1(fast)
+# Loading /software/dk/nangate45/verilog/qsim10.7c.OAI21_X1(fast)
+# Loading /software/dk/nangate45/verilog/qsim10.7c.NOR3_X1(fast)
+# Loading /software/dk/nangate45/verilog/qsim10.7c.XOR2_X1(fast)
+# Loading /software/dk/nangate45/verilog/qsim10.7c.HA_X1(fast)
+# Loading instances from ../inccomp.sdf
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'C_reg_7_'.  Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tbinccomp/DUT/C_reg_7_ File: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v Line: 18
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'C_reg_6_'.  Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tbinccomp/DUT/C_reg_6_ File: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v Line: 19
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'C_reg_5_'.  Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tbinccomp/DUT/C_reg_5_ File: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v Line: 20
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'C_reg_4_'.  Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tbinccomp/DUT/C_reg_4_ File: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v Line: 21
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'C_reg_3_'.  Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tbinccomp/DUT/C_reg_3_ File: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v Line: 22
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'C_reg_2_'.  Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tbinccomp/DUT/C_reg_2_ File: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v Line: 23
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'C_reg_1_'.  Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tbinccomp/DUT/C_reg_1_ File: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v Line: 24
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'C_reg_0_'.  Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tbinccomp/DUT/C_reg_0_ File: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v Line: 25
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'syncha_reg_0_'.  Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tbinccomp/DUT/syncha_reg_0_ File: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v Line: 26
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'syncha_reg_1_'.  Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tbinccomp/DUT/syncha_reg_1_ File: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v Line: 28
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'syncha_reg_2_'.  Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tbinccomp/DUT/syncha_reg_2_ File: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v Line: 30
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'syncha_reg_3_'.  Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tbinccomp/DUT/syncha_reg_3_ File: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v Line: 32
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'syncha_reg_4_'.  Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tbinccomp/DUT/syncha_reg_4_ File: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v Line: 34
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'syncha_reg_5_'.  Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tbinccomp/DUT/syncha_reg_5_ File: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v Line: 36
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'syncha_reg_6_'.  Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tbinccomp/DUT/syncha_reg_6_ File: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v Line: 38
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'syncha_reg_7_'.  Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tbinccomp/DUT/syncha_reg_7_ File: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v Line: 40
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'synchb_reg_0_'.  Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tbinccomp/DUT/synchb_reg_0_ File: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v Line: 42
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'synchb_reg_1_'.  Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tbinccomp/DUT/synchb_reg_1_ File: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v Line: 44
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'synchb_reg_2_'.  Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tbinccomp/DUT/synchb_reg_2_ File: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v Line: 46
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'synchb_reg_3_'.  Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tbinccomp/DUT/synchb_reg_3_ File: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v Line: 48
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'synchb_reg_4_'.  Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tbinccomp/DUT/synchb_reg_4_ File: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v Line: 50
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'synchb_reg_5_'.  Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tbinccomp/DUT/synchb_reg_5_ File: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v Line: 52
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'synchb_reg_6_'.  Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tbinccomp/DUT/synchb_reg_6_ File: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v Line: 54
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'synchb_reg_7_'.  Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tbinccomp/DUT/synchb_reg_7_ File: /home/lp21.2/Desktop/lab3/saiftest/inccomp_netlist.v Line: 56
+# Loading timing data from ../inccomp.sdf
+# ** Warning: (vsim-3448) nofile(1758): Setting negative specify check constraint (-28 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /tbinccomp/DUT/synchb_reg_7_
+# ** Warning: (vsim-3448) nofile(1758): Setting negative specify check constraint (-28 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /tbinccomp/DUT/synchb_reg_6_
+# ** Warning: (vsim-3448) nofile(1758): Setting negative specify check constraint (-28 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /tbinccomp/DUT/synchb_reg_5_
+# ** Warning: (vsim-3448) nofile(1758): Setting negative specify check constraint (-28 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /tbinccomp/DUT/synchb_reg_4_
+# ** Warning: (vsim-3448) nofile(1758): Setting negative specify check constraint (-28 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /tbinccomp/DUT/synchb_reg_3_
+# ** Warning: (vsim-3448) nofile(1758): Setting negative specify check constraint (-28 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /tbinccomp/DUT/synchb_reg_2_
+# ** Warning: (vsim-3448) nofile(1758): Setting negative specify check constraint (-28 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /tbinccomp/DUT/synchb_reg_1_
+# ** Warning: (vsim-3448) nofile(1758): Setting negative specify check constraint (-28 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /tbinccomp/DUT/synchb_reg_0_
+# ** Warning: (vsim-3448) nofile(1758): Setting negative specify check constraint (-28 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /tbinccomp/DUT/syncha_reg_7_
+# ** Warning: (vsim-3448) nofile(1758): Setting negative specify check constraint (-28 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /tbinccomp/DUT/syncha_reg_6_
+# ** Warning: (vsim-3448) nofile(1758): Setting negative specify check constraint (-28 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /tbinccomp/DUT/syncha_reg_5_
+# ** Warning: (vsim-3448) nofile(1758): Setting negative specify check constraint (-28 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /tbinccomp/DUT/syncha_reg_4_
+# ** Warning: (vsim-3448) nofile(1758): Setting negative specify check constraint (-28 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /tbinccomp/DUT/syncha_reg_3_
+# ** Warning: (vsim-3448) nofile(1758): Setting negative specify check constraint (-28 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /tbinccomp/DUT/syncha_reg_2_
+# ** Warning: (vsim-3448) nofile(1758): Setting negative specify check constraint (-28 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /tbinccomp/DUT/syncha_reg_1_
+# ** Warning: (vsim-3448) nofile(1758): Setting negative specify check constraint (-28 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /tbinccomp/DUT/syncha_reg_0_
+# ** Warning: (vsim-3448) nofile(1758): Setting negative specify check constraint (-28 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /tbinccomp/DUT/C_reg_0_
+# ** Warning: (vsim-3448) nofile(1758): Setting negative specify check constraint (-28 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /tbinccomp/DUT/C_reg_1_
+# ** Warning: (vsim-3448) nofile(1758): Setting negative specify check constraint (-28 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /tbinccomp/DUT/C_reg_2_
+# ** Warning: (vsim-3448) nofile(1758): Setting negative specify check constraint (-28 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /tbinccomp/DUT/C_reg_3_
+# ** Warning: (vsim-3448) nofile(1758): Setting negative specify check constraint (-28 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /tbinccomp/DUT/C_reg_4_
+# ** Warning: (vsim-3448) nofile(1758): Setting negative specify check constraint (-28 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /tbinccomp/DUT/C_reg_5_
+# ** Warning: (vsim-3448) nofile(1758): Setting negative specify check constraint (-28 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /tbinccomp/DUT/C_reg_6_
+# ** Warning: (vsim-3448) nofile(1758): Setting negative specify check constraint (-28 ps) to zero.
+#    Time: 0 ps  Iteration: 0  Instance: /tbinccomp/DUT/C_reg_7_
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /tbinccomp File: /home/lp21.2/Desktop/lab3/saiftest/tb_inccomp.v
+quit
+# End time: 10:50:00 on Apr 27,2021, Elapsed time: 0:02:25
+# Errors: 0, Warnings: 96

@@ -1,0 +1,59 @@
+Loading db file '/home/mg.lowpower/do/libnangate/NangateOpenCellLibrary_typical_ecsm.db'
+Information: Updating design information... (UID-85)
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+        -include_input_nets
+Design : inccomp
+Version: F-2011.09-SP3
+Date   : Tue Apr 20 11:48:06 2021
+****************************************
+
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /home/mg.lowpower/do/libnangate/NangateOpenCellLibrary_typical_ecsm.db)
+
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+inccomp                5K_hvratio_1_1    NangateOpenCellLibrary
+
+
+Global Operating Voltage = 1.1  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+  Cell Internal Power  =  32.8518 uW   (75%)
+  Net Switching Power  =  10.8799 uW   (25%)
+                         ---------
+Total Dynamic Power    =  43.7317 uW  (100%)
+
+Cell Leakage Power     =   3.9469 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      4.3808            2.8803          116.8092            7.3779  (  17.06%)
+register          25.7196            0.7909        1.9461e+03           28.4567  (  65.79%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational      2.7513            2.7870        1.8840e+03            7.4222  (  17.16%)
+--------------------------------------------------------------------------------------------------
+Total             32.8518 uW         6.4582 uW     3.9469e+03 nW        43.2569 uW
+1

@@ -1,0 +1,38 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+        -sort_by group
+Design : dpadder_FSM
+Version: F-2011.09-SP3
+Date   : Sat Apr 17 17:41:56 2021
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: state_reg[2]
+              (rising edge-triggered flip-flop)
+  Endpoint: sel[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  dpadder_FSM        5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  state_reg[2]/CK (DFFS_X1)                0.00       0.00 r
+  state_reg[2]/Q (DFFS_X1)                 0.10       0.10 r
+  U12/Z (XOR2_X1)                          0.09       0.18 r
+  U7/ZN (AND2_X1)                          0.05       0.23 r
+  sel[0] (out)                             0.00       0.24 r
+  data arrival time                                   0.24
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+

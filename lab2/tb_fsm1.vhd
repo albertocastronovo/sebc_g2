@@ -14,16 +14,20 @@ architecture TEST of TBFSM is
 	signal T_RESET: std_logic;
 	signal T_OUT: std_logic_vector(15 downto 0);
 
-	component FSM_ADDER
-	port (  A, B, C, D, E, F:       in std_logic_vector(15 downto 0);
-        	clock:  in std_logic;
-        	reset:  in std_logic;
-        	O:      buffer std_logic_vector(15 downto 0));
+	component fsmadder IS
+	PORT(
+		A, B, C, D, E, F	: IN std_logic_vector(15 DOWNTO 0);
+		clock, reset		: IN std_logic;
+		O			: BUFFER std_logic_vector(15 DOWNTO 0)
+	);
+	
 	end component;
+
+
 
 begin
 
-	U_fsm_opc: FSM_ADDER
+	U_fsm_opc: fsmadder
 	Port Map (a, b, c, d, e, f, T_CLOCK, T_RESET, T_OUT );
 	
 	a <= (others => '0');

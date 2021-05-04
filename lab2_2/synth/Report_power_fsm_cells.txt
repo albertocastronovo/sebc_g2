@@ -1,0 +1,58 @@
+ 
+****************************************
+Report : power
+        -cell
+        -analysis_effort low
+        -sort_mode cell_internal_power
+Design : fsmadder/fsm (dpadder_FSM)
+Version: F-2011.09-SP3
+Date   : Sat Apr 17 18:26:45 2021
+****************************************
+
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /home/mg.lowpower/do/libnangate/NangateOpenCellLibrary_typical_ecsm.db)
+
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+fsmadder               5K_hvratio_1_1    NangateOpenCellLibrary
+
+
+Global Operating Voltage = 1.1  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+
+  Attributes
+  ----------
+      h  -  Hierarchical cell
+
+                        Cell      Driven Net  Tot Dynamic      Cell
+                        Internal  Switching   Power            Leakage
+Cell                    Power     Power       (% Cell/Tot)     Power      Attrs
+--------------------------------------------------------------------------------
+state_reg[1]               1.0174    0.0799      1.097 (93%)     87.1062   
+state_reg[0]               0.8159    0.0794      0.895 (91%)     83.5700   
+state_reg[2]               0.7383    0.0821      0.820 (90%)     83.0205   
+U7                         0.0649    0.1739      0.239 (27%)     29.4276   
+U10                        0.0568    0.0465      0.103 (55%)     27.3906   
+U12                        0.0556    0.0591      0.115 (48%)     39.2039   
+U8                         0.0523    0.0527      0.105 (50%)     21.3560   
+U6                         0.0422    0.0860      0.128 (33%)     34.7060   
+U4                         0.0314    0.0953      0.127 (25%)     29.4984   
+U9                         0.0293    0.0539   8.32e-02 (35%)     24.5429   
+U3                         0.0232    0.1504      0.174 (13%)     15.8373   
+U5                         0.0208    0.0527   7.35e-02 (28%)     11.8534   
+U11                     9.973e-03    0.0367   4.66e-02 (21%)     14.3532   
+--------------------------------------------------------------------------------
+Totals (13 cells)          2.958uW   1.049uW     4.007uW (74%)  501.866nW

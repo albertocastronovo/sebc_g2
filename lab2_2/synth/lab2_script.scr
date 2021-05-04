@@ -1,0 +1,57 @@
+gui_start
+analyze -library WORK -format vhdl {/home/lp21.2/Desktop/lab2_2/synth/fsmadder_struct.vhd /home/lp21.2/Desktop/lab2_2/synth/dpadder_FSM.vhd /home/lp21.2/Desktop/lab2_2/synth/dpadder.vhd}
+analyze -library WORK -format vhdl {/home/lp21.2/Desktop/lab2_2/synth/dpadder.vhd}
+analyze -library WORK -format vhdl {/home/lp21.2/Desktop/lab2_2/synth/dpadder_FSM.vhd /home/lp21.2/Desktop/lab2_2/synth/dpadder_FSM.vhd}
+analyze -library WORK -format vhdl {/home/lp21.2/Desktop/lab2_2/synth/dpadder_FSM.vhd}
+analyze -library WORK -format vhdl {/home/lp21.2/Desktop/lab2_2/synth/dpadder.vhd}
+analyze -library WORK -format vhdl {/home/lp21.2/Desktop/lab2_2/synth/dpadder_FSM.vhd}
+analyze -library WORK -format vhdl {/home/lp21.2/Desktop/lab2_2/synth/fsmadder_struct.vhd}
+elaborate FSMADDER -architecture STRUCTURAL -library WORK
+change_selection -name __slctBus6 -type {cell design} _sel173
+create_clock -name "CLK" -period 10 {clock}
+report_clock
+compile -exact_map
+change_selection -name __slctBus116 -type {cell design} _sel1147
+write -hierarchy -format ddc -output /home/lp21.2/Desktop/lab2_2/synth/FSM_Design_vers2.ddc
+write -format vhdl -output /home/lp21.2/Desktop/lab2_2/synth/FSM_Top_vhdl.vhdl
+uplevel #0 { report_area -nosplit }
+report_fsm
+current_design dpadder_FSM
+report_fsm
+set_fsm_encoding_style
+set_fsm_encoding_style one_hot
+report_fsm
+set_fsm_encoding_style gray
+report_fsm
+uplevel #0 { report_timing -path full -delay max -nworst 1 -max_paths 1 -significant_digits 2 -sort_by group }
+current_design fsmadder
+report_timing
+uplevel #0 { report_timing -path full -delay max -nworst 1 -max_paths 1 -significant_digits 2 -sort_by group }
+report_timing -nworst 10
+uplevel #0 { report_timing -path full -delay max -nworst 10 -max_paths 1 -significant_digits 2 -sort_by group }
+uplevel #0 { report_power -analysis_effort low }
+uplevel #0 { report_power -cell -analysis_effort low }
+uplevel #0 { report_power -net -analysis_effort low }
+list_designs
+current_instance FSM
+current_instance dpadder_FSM
+current_instance fsm
+report_power -cell
+uplevel #0 { report_power -cell -analysis_effort low }
+uplevel #0 { report_power -net -analysis_effort low }
+current_instance
+create_clock -name "CLK" -period 2 {clock}
+report_clock
+report_power
+uplevel #0 { report_power -analysis_effort low }
+set_max_dynamic_power 30 uW
+compile -exact_map
+report_power
+uplevel #0 { report_power -analysis_effort low }
+report_constraints
+set_max_dynamic_power 180 uW
+compile -exact_map
+report_constraints
+write -format vhdl -output /home/lp21.2/Desktop/lab2_2/synth/FSM_final_vhdl.vhdl
+write -format ddc -output /home/lp21.2/Desktop/lab2_2/synth/final_ddc.ddc
+write -hierarchy -format ddc
