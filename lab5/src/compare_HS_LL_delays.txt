@@ -1,0 +1,48 @@
+Nand LL
+PARAM LOAD =  6.0000E-17
+  RNAND       =  7.1556E-11   targ=  2.2480E-09     trig=  2.1764E-09
+  FNAND       =  6.3464E-11   targ=  1.2187E-09     trig=  1.1552E-09
+  FNANDDELAY  =  3.1612E-11   targ=  1.1946E-09     trig=  1.1630E-09
+  RNANDDELAY  =  5.2657E-11   targ=  2.2157E-09     trig=  2.1630E-09
+PARAM LOAD =  6.0000E-14
+  RNAND       =  5.9223E-10   targ=  2.8676E-09     trig=  2.2754E-09
+  FNAND       =  4.0623E-10   targ=  1.6559E-09     trig=  1.2497E-09
+  FNANDDELAY  =  2.5767E-10   targ=  1.4207E-09     trig=  1.1630E-09
+  RNANDDELAY  =  3.3122E-10   targ=  2.4942E-09     trig=  2.1630E-09
+
+NAND LLX8
+PARAM LOAD =  6.0000E-17
+  RNAND       =  6.3480E-11   targ=  2.2358E-09     trig=  2.1723E-09
+  FNAND       =  5.7371E-11   targ=  1.2109E-09     trig=  1.1535E-09
+  FNANDDELAY  =  2.6768E-11   targ=  1.1898E-09     trig=  1.1630E-09
+  RNANDDELAY  =  4.4524E-11   targ=  2.2075E-09     trig=  2.1630E-09
+PARAM LOAD =  6.0000E-14
+  RNAND       =  1.3767E-10   targ=  2.3335E-09     trig=  2.1958E-09
+  FNAND       =  1.1239E-10   targ=  1.2903E-09     trig=  1.1780E-09
+  FNANDDELAY  =  7.8324E-11   targ=  1.2413E-09     trig=  1.1630E-09
+  RNANDDELAY  =  1.0277E-10   targ=  2.2658E-09     trig=  2.1630E-09
+
+NAND HS
+PARAM LOAD =  6.0000E-17
+  RNAND       =  6.7692E-11   targ=  2.2289E-09     trig=  2.1612E-09
+  FNAND       =  6.8976E-11   targ=  1.2076E-09     trig=  1.1386E-09
+  FNANDDELAY  =  2.0923E-11   targ=  1.1839E-09     trig=  1.1630E-09
+  RNANDDELAY  =  3.8361E-11   targ=  2.2014E-09     trig=  2.1630E-09
+PARAM LOAD =  6.0000E-14
+  RNAND       =  4.2504E-10   targ=  2.6634E-09     trig=  2.2384E-09
+  FNAND       =  3.4177E-10   targ=  1.5622E-09     trig=  1.2205E-09
+  FNANDDELAY  =  2.0371E-10   targ=  1.3667E-09     trig=  1.1630E-09
+  RNANDDELAY  =  2.3661E-10   targ=  2.3996E-09     trig=  2.1630E-09
+
+NAND HSX8
+PARAM LOAD =  6.0000E-17
+  RNAND       =  6.2271E-11   targ=  2.2198E-09     trig=  2.1575E-09
+  FNAND       =  6.3845E-11   targ=  1.2016E-09     trig=  1.1377E-09
+  FNANDDELAY  =  1.7465E-11   targ=  1.1805E-09     trig=  1.1630E-09
+  RNANDDELAY  =  3.1358E-11   targ=  2.1944E-09     trig=  2.1630E-09
+PARAM LOAD =  6.0000E-14
+  RNAND       =  1.1307E-10   targ=  2.2869E-09     trig=  2.1738E-09
+  FNAND       =  1.0687E-10   targ=  1.2631E-09     trig=  1.1562E-09
+  FNANDDELAY  =  5.7440E-11   targ=  1.2204E-09     trig=  1.1630E-09
+  RNANDDELAY  =  7.2256E-11   targ=  2.2353E-09     trig=  2.1630E-09
+

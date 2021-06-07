@@ -1,0 +1,4 @@
+# At    0.00 ns: 	 a=0  b=0  ci=0  sum=0  co=0
+# At   10.00 ns: 	 a=1  b=0  ci=0  sum=1  co=1
+# At   20.00 ns: 	 a=1  b=1  ci=0  sum=0  co=1
+# At   30.00 ns: 	 a=1  b=1  ci=1  sum=1  co=1

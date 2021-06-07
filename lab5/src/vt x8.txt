@@ -1,0 +1,33 @@
+Print_Legend 1: VT(XNAND.XMN0.M1)
+Print_Legend 2: VT(XNAND.XMN1.M1)
+Print_Legend 3: VT(XNAND.XMN2.M1)
+Print_Legend 4: VT(XNAND.XMN3.M1)
+              1            2            3            4             
+X 
+  
+ 2.7000E+01   3.1893E-01   2.7763E-01   3.1893E-01   2.7763E-01  
+
+Print_Legend 1: VT(XNAND.XMN4.M1)
+Print_Legend 2: VT(XNAND.XMN5.M1)
+Print_Legend 3: VT(XNAND.XMN6.M1)
+Print_Legend 4: VT(XNAND.XMN7.M1)
+              1            2            3            4             
+X 
+  
+ 2.7000E+01   2.7763E-01   3.1893E-01   2.7763E-01   3.1893E-01 
+
+Print_Legend 1: VT(XNAND.XMP6.M1)
+Print_Legend 2: VT(XNAND.XMP7.M1)
+Print_Legend 3: VT(XNAND.XMP6_2.M1)
+Print_Legend 4: VT(XNAND.XMP7_2.M1)
+              1            2            3            4             
+X 
+  
+ 2.7000E+01  -2.4164E-01  -2.4164E-01  -2.4164E-01  -2.4164E-01  
+
+Print_Legend 1: VT(XNAND.XMP6_3.M1)
+Print_Legend 2: VT(XNAND.XMP7_3.M1)
+              1            2             
+X 
+  
+ 2.7000E+01  -2.4164E-01  -2.4164E-01  
